@@ -1,5 +1,5 @@
 # awesome-2d-lidars
-Awesome 2D (low-cost) LiDAR list - specs, protocols, wiring, photos, ROS2/ROS/Arduino code links
+Awesome 2D (low-cost) LiDAR list - specs, protocols, wiring, code, performance (TODO), photos, videos
 
 Please note - some of the information in the table below may be incorrect.
 - some LiDAR/LDS models do not have official datasheets available publically
