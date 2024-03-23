@@ -1,10 +1,12 @@
 # awesome-2d-lidars
-Awesome 2D (low-cost) LiDAR list - specs, protocols, wiring, code, performance (TODO), photos, videos
+Awesome 2D (low-cost) LiDAR list - specs, protocols, wiring, code, model versions, performance (TODO), photos, videos
 
 Please note - some of the information in the table below may be incorrect.
 - some LiDAR/LDS models do not have official datasheets available publically
 
 Please also see this [blog post](https://kaia.ai/blog/arduino-lidar-library/) and [library](https://github.com/kaiaai/LDS).
+
+## LiDAR/LDS Table
 
 | Model                | Type | Scans per sec | Points per sec | Range, Meters | Price Retail | Service Life | Safety | Ambient, Lux | Links |
 |----------------------|------|---------|---------|---------|----------|---------|---------|---------|------|
@@ -29,3 +31,19 @@ Please also see this [blog post](https://kaia.ai/blog/arduino-lidar-library/) an
 | YDLIDAR(?) MB-1R2T*  |      |         |         |         |          |         |         |         | [ROS2](https://github.com/g0mb4/mb_1r2t_ros2) [ROS1](https://github.com/Vidicon/mb_1r2t_ros) [3D](https://github.com/simonllopez/radar_mb_1r2t-3D-model) |
 | Camsense X1*         |      |         |         |         |          |         |         |         | [ROS2 ROS1 protocol 3D](https://github.com/Vidicon/camsense-X1) |
 
+## Neato XV11
+- [Video](https://www.youtube.com/watch?v=kfk1Q0RSJpI) (Arduino, ROS2)
+- Characterization [report](https://www.diva-portal.org/smash/get/diva2:995686/FULLTEXT01.pdf)
+
+## Xiaomi Mi 1st gen LDS02RR
+- [Video](https://www.youtube.com/watch?v=gaDnZ4Msw0E) (Arduino, ROS2)
+
+## SLAMTEC RPLIDAR A1
+- [Video](https://www.youtube.com/watch?v=f8IYjfiXsMk) (Arduino, ROS2)
+
+## YDLIDAR X3 PRO
+- [Video](https://www.youtube.com/watch?v=_VuRCiO55gA) (Arduino, ROS2)
+
+## LDROBOT LD14P
+- [Video](https://www.youtube.com/watch?v=ebbHqs4lW0U) (Arduino, ROS2)
+- Arduino ESP32 wiring [tutorial](https://kaia.ai/blog/tutorial-connect-ld14p-lidar/)
