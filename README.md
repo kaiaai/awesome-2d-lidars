@@ -47,3 +47,7 @@ Please also see this [blog post](https://kaia.ai/blog/arduino-lidar-library/) an
 ## LDROBOT LD14P
 - [Video](https://www.youtube.com/watch?v=ebbHqs4lW0U) (Arduino, ROS2)
 - Arduino ESP32 wiring [tutorial](https://kaia.ai/blog/tutorial-connect-ld14p-lidar/)
+  
+|   |   |
+|---|---|
+| ![LD14P top](./images/ld14p_top.jpg) | ![LD14P bottom](./images/ld14p_bottom.jpg) |
