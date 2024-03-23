@@ -4,7 +4,7 @@ Awesome 2D (low-cost) LiDAR list - specs, protocols, wiring, code, performance (
 Please note - some of the information in the table below may be incorrect.
 - some LiDAR/LDS models do not have official datasheets available publically
 
-Please also see this [blog post](https://kaia.ai/blog/arduino-lidar-library/).
+Please also see this [blog post](https://kaia.ai/blog/arduino-lidar-library/) and [library](https://github.com/kaiaai/LDS).
 
 | Model                | Type | Scans per sec | Points per sec | Range, Meters | Price Retail | Service Life | Safety | Ambient, Lux | Links |
 |----------------------|------|---------|---------|---------|----------|---------|---------|---------|------|
