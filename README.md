@@ -21,6 +21,7 @@ Please also see this [blog post](https://kaia.ai/blog/arduino-lidar-library/) an
 | Neato XV11           | Tria |   5Hz   | ~2KHz   | 0.15-6? | ~$35     |         |         |         | 195g | [ROS2](https://github.com/mjstn/xv_11_driver) [Char](https://www.diva-portal.org/smash/get/diva2:995686/FULLTEXT01.pdf) |
 | SLAMTEC RPLIDAR A1M8-R4 | Tria |  1-10Hz | 8KHz | 0.15-6  |          |         | Class 1 |         |      | [PDF](https://www.slamtec.ai/wp-content/uploads/2023/11/LD108_SLAMTEC_rplidar_datasheet_A1M8_v3.0_en.pdf) |
 | SLAMTEC RPLIDAR A1M8-R5 | Tria |  1-10Hz | 8KHz | 0.15-12 | ~$99     |         | Class 1 |         |      | [PDF](https://www.slamtec.ai/wp-content/uploads/2023/11/LD108_SLAMTEC_rplidar_datasheet_A1M8_v3.0_en.pdf) |
+| SLAMTEC RPLIDAR A2M12 | Tria |  5-15Hz | 16KHz | 0.2-10/12 |      |         | Class 1 |         |      | [Spec](https://www.slamtec.ai/product/slamtec-rplidar-a2/) |
 | 3irobotics Delta-2A  | Tria | ~5.25Hz?| ~1.9KHz?| 0.15-5? | ~$28     |         |         | 1K?     |      | [SDK](https://github.com/CWRU-AutonomousVehiclesLab/Delta-2B-Lidar-SDK) [Protocol](https://github.com/NotBlackMagic/Delta-2G-LiDAR-Driver/blob/master/Documents/Delta-1A%20EN.pdf) |
 | 3irobotics Delta-2B  | Tria | 4..10Hz?|  5KHz?  | 0.2..8? |          |         |         | 1K?     |      | [Arduino code](https://wiki.iarduino.ru/page/delta-2b-lidar-esp32/) |
 | 3irobotics Delta-2G  | Tria | ~5.25Hz?| ~1.9KHz?| 0.15-5? | ~$17     |         |         |         |      | [SDK](https://lidar.oss-cn-beijing.aliyuncs.com/Lidar.rar) [Protocol](https://github.com/NotBlackMagic/Delta-2G-LiDAR-Driver/blob/master/Documents/Delta-1A%20EN.pdf) |
@@ -40,8 +41,10 @@ Please also see this [blog post](https://kaia.ai/blog/arduino-lidar-library/) an
 - [Video](https://www.youtube.com/watch?v=gaDnZ4Msw0E) (Arduino, ROS2)
 
 ## SLAMTEC RPLIDAR A1
-- [Datasheet, manual, viewer, protocol, dimensions, 3D model, SDK, ROS2, ROS1](https://www.slamtec.ai/downloads/)
+- [A1 product datasheet, manual](https://www.slamtec.ai/product/slamtec-rplidar-a1/
+  - [All products resources](https://www.slamtec.ai/downloads/) - datasheets, manuals, viewer, protocols, dimensions, 3D models, SDK, ROS2, ROS1
 - [Video](https://www.youtube.com/watch?v=f8IYjfiXsMk) (Arduino, ROS2)
+- sold on Amazon, AliExpress, eBay, online DIY robotics stores
 
 ## YDLIDAR X3 PRO
 - [Video](https://www.youtube.com/watch?v=_VuRCiO55gA) (Arduino, ROS2)
