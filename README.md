@@ -30,7 +30,7 @@ Please also see this [blog post](https://kaia.ai/blog/arduino-lidar-library/) an
 | LDROBOT LD20         |      |         |         |         |          |         |         |         |      |
 | RPLIDAR C1           |      |         |         |         |          |         |         |         |      |
 | YDLIDAR(?) MB-1R2T   |      |         |         |         |          |         |         |         | [ROS2](https://github.com/g0mb4/mb_1r2t_ros2) [ROS1](https://github.com/Vidicon/mb_1r2t_ros) [3D](https://github.com/simonllopez/radar_mb_1r2t-3D-model) |
-| Camsense X1          |      |         |         |         |          |         |         |         | [ROS2 ROS1 protocol 3D](https://github.com/Vidicon/camsense-X1) |
+| Camsense X1          | Tria |         |         | 0.1-8 |          |         |         |         | [ROS2 ROS1 protocol 3D](https://github.com/Vidicon/camsense-X1) |
 
 ## Neato XV11
 - [Video](https://www.youtube.com/watch?v=kfk1Q0RSJpI) (Arduino, ROS2)
@@ -54,7 +54,8 @@ Please also see this [blog post](https://kaia.ai/blog/arduino-lidar-library/) an
 | ![LD14P top](./images/ld14p_top.jpg) | ![LD14P bottom](./images/ld14p_bottom.jpg) |
 
 ## Camsense X1
-- [product home page](https://www.camsense.cn/robot/camsenseX1.html)
+- LDS product [home page](https://www.camsense.cn/robot/camsenseX1.html)
+- Wiring [Camsense X1 bottom](./images/PXL_20240325_004824664.jpg)
 
 |   |   |
 |---|---|
