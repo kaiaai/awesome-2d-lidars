@@ -1,5 +1,5 @@
 # awesome-2d-lidars
-Awesome 2D (low-cost) LiDAR list - specs, protocols, wiring, code, model versions, performance (TODO), photos, videos
+Awesome 2D (low-cost) LiDAR list - specs, protocols, identification - photos/videos, wiring, code, model versions, performance (TODO)
 
 Please note - some of the information in the table below may be incorrect.
 - some LiDAR/LDS models do not have official datasheets available publically 🫤😵‍💫😭😭
