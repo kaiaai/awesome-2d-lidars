@@ -3,6 +3,7 @@ Awesome 2D (low-cost) LiDAR list - specs, protocols, wiring, code, model version
 
 Please note - some of the information in the table below may be incorrect.
 - some LiDAR/LDS models do not have official datasheets available publically
+- some LiDAR/LDS models evolve over time - their specs change, while the model name remains unchanged
 
 Please also see this [blog post](https://kaia.ai/blog/arduino-lidar-library/) and [library](https://github.com/kaiaai/LDS).
 
@@ -51,3 +52,11 @@ Please also see this [blog post](https://kaia.ai/blog/arduino-lidar-library/) an
 |   |   |
 |---|---|
 | ![LD14P top](./images/ld14p_top.jpg) | ![LD14P bottom](./images/ld14p_bottom.jpg) |
+
+## Camsense X1
+- [product home page](https://www.camsense.cn/robot/camsenseX1.html)
+
+|   |   |
+|---|---|
+| ![Camsense X1 top](./images/PXL_20240325_004835636.jpg) | ![LD14P top side](./images/PXL_20240325_004844901.jpg) |
+| ![Camsense X1 bottom](./images/PXL_20240325_004824664.jpg) | ![LD14P bottom side](./images/PXL_20240325_004816813.jpg) |
