@@ -44,15 +44,18 @@ Please also see this [blog post](https://kaia.ai/blog/arduino-lidar-library/) an
 - [A1 product datasheet, manual](https://www.slamtec.ai/product/slamtec-rplidar-a1/
   - [All products resources](https://www.slamtec.ai/downloads/) - datasheets, manuals, viewer, protocols, dimensions, 3D models, SDK, ROS2, ROS1
 - [Video](https://www.youtube.com/watch?v=f8IYjfiXsMk) (Arduino, ROS2)
-- sold on Amazon, AliExpress, eBay, online DIY robotics stores
 
 ## YDLIDAR X3 PRO
 - [Video](https://www.youtube.com/watch?v=_VuRCiO55gA) (Arduino, ROS2)
 
 ## LDROBOT LD14P
 - [Video](https://www.youtube.com/watch?v=ebbHqs4lW0U) (Arduino, ROS2)
+- specs, viewer, protocol, manual, SDK, ROS2, 3D model [link](https://www.waveshare.com/wiki/D200_LiDAR_Kit)
+- also comes as D200 evaluation kit 
 - Arduino ESP32 wiring [tutorial](https://kaia.ai/blog/tutorial-connect-ld14p-lidar/)
-  
+- connector 4-pin JST GH (1.25mm with latch)
+  - [wiring diagram](https://www.waveshare.com/wiki/D200_LiDAR_Kit)
+
 |   |   |
 |---|---|
 | ![LD14P top](./images/ld14p_top.jpg) | ![LD14P bottom](./images/ld14p_bottom.jpg) |
@@ -66,3 +69,8 @@ Please also see this [blog post](https://kaia.ai/blog/arduino-lidar-library/) an
 |---|---|
 | ![Camsense X1 top](./images/PXL_20240325_004835636.webp) | ![LD14P top side](./images/PXL_20240325_004844901.webp) |
 | ![Camsense X1 bottom](./images/PXL_20240325_004824664.webp) | ![LD14P bottom side](./images/PXL_20240325_004816813.webp) |
+
+### Miscellaneous
+
+- 2D LiDARs are usually sold retail on AliExpress, Amazon, eBay, online DIY robotics stores (robotshop.com, waveshare.com)
+  - Google for "buy such-and-such-LiDAR-model" to find 2D LiDAR retail sellers
