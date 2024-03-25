@@ -2,7 +2,7 @@
 Awesome 2D (low-cost) LiDAR list - specs, protocols, wiring, code, model versions, performance (TODO), photos, videos
 
 Please note - some of the information in the table below may be incorrect.
-- some LiDAR/LDS models do not have official datasheets available publically
+- some LiDAR/LDS models do not have official datasheets available publically 🫤😵‍💫😭😭
 - some LiDAR/LDS models evolve over time - their specs change, while the model name remains unchanged 🤯🤯🤯
 
 Please also see this [blog post](https://kaia.ai/blog/arduino-lidar-library/) and [library](https://github.com/kaiaai/LDS).
