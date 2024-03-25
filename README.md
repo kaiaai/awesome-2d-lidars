@@ -4,10 +4,12 @@ Awesome 2D (low-cost) LiDAR list - specs, protocols, identification - photos/vid
 Please note - some of the information in the table below may be incorrect.
 - some LiDAR/LDS models do not have official datasheets available publically 🫤😵‍💫😭😭
 - some LiDAR/LDS models evolve over time - their specs change, while the model name remains unchanged 🤯🤯🤯
+- maximum distance specification is often poorly defined (needs object reflectivity, ambient illumination specified as well)
+  - ambient light resistance is usually poorly defined as well (needs object reflectivity, distance to object, ambient light spectrum)
 
 Please also see this [blog post](https://kaia.ai/blog/arduino-lidar-library/) and [library](https://github.com/kaiaai/LDS).
 
-## LiDAR/LDS Table
+## LiDAR/LDS Comparison Table
 
 | Model                | Type | Scans per sec | Points per sec | Range, Meters | Price Retail | Service Life | Safety | Ambient, Lux | Weight | Links |
 |----------------------|------|---------------|----------------|---------------|--------------|--------------|--------|--------------|--------|-------|
@@ -22,6 +24,7 @@ Please also see this [blog post](https://kaia.ai/blog/arduino-lidar-library/) an
 | SLAMTEC RPLIDAR A1M8-R4 | Tria |  1-10Hz | 8KHz | 0.15-6  |          |         | Class 1 |         |      | [PDF](https://www.slamtec.ai/wp-content/uploads/2023/11/LD108_SLAMTEC_rplidar_datasheet_A1M8_v3.0_en.pdf) |
 | SLAMTEC RPLIDAR A1M8-R5 | Tria |  1-10Hz | 8KHz | 0.15-12 | ~$99     |         | Class 1 |         |      | [PDF](https://www.slamtec.ai/wp-content/uploads/2023/11/LD108_SLAMTEC_rplidar_datasheet_A1M8_v3.0_en.pdf) |
 | SLAMTEC RPLIDAR A2M12 | Tria |  5-15Hz | 16KHz | 0.2-10/12 |      |         | Class 1 |         |      | [Spec](https://www.slamtec.ai/product/slamtec-rplidar-a2/) |
+| SLAMTEC RPLIDAR C1M1-R2 | Fusion | 8-12(10)Hz | 5KHz | 0.2-10/12 | ~$60 |         | Class 1 | 40K? |      | [Spec](https://www.slamtec.ai/product/slamtec-rplidar-c1/) |
 | 3irobotics Delta-2A  | Tria | ~5.25Hz?| ~1.9KHz?| 0.15-5? | ~$28     |         |         | 1K?     |      | [SDK](https://github.com/CWRU-AutonomousVehiclesLab/Delta-2B-Lidar-SDK) [Protocol](https://github.com/NotBlackMagic/Delta-2G-LiDAR-Driver/blob/master/Documents/Delta-1A%20EN.pdf) |
 | 3irobotics Delta-2B  | Tria | 4..10Hz?|  5KHz?  | 0.2..8? |          |         |         | 1K?     |      | [Arduino code](https://wiki.iarduino.ru/page/delta-2b-lidar-esp32/) |
 | 3irobotics Delta-2G  | Tria | ~5.25Hz?| ~1.9KHz?| 0.15-5? | ~$17     |         |         |         |      | [SDK](https://lidar.oss-cn-beijing.aliyuncs.com/Lidar.rar) [Protocol](https://github.com/NotBlackMagic/Delta-2G-LiDAR-Driver/blob/master/Documents/Delta-1A%20EN.pdf) |
@@ -29,7 +32,6 @@ Please also see this [blog post](https://kaia.ai/blog/arduino-lidar-library/) an
 | Hitachi-LG HLS-LFCD3 | Tria |   5Hz   | 2.3KHz  | 0.16-8  | ~$17     | 1,000h  | Class 1 | 25K?    |      | [Spec](https://emanual.robotis.com/docs/en/platform/turtlebot3/appendix_lds_02/) [ROS2](https://github.com/ROBOTIS-GIT/ld08_driver) |
 | LDROBOT LD14P        | Tria | 2..8Hz  | 4KHz    | 0.1-8   | ~$35     | 2,200h  |         | 80K?    |      | [Spec, Protocol](https://www.waveshare.com/wiki/D200_LiDAR_Kit) |
 | LDROBOT LD20         |      |         |         |         |          |         |         |         |      |      |
-| RPLIDAR C1           |      |         |         |         |          |         |         |         |      |      |
 | YDLIDAR(?) MB-1R2T   |      |         |         |         |          |         |         |         |      | [ROS2](https://github.com/g0mb4/mb_1r2t_ros2) [ROS1](https://github.com/Vidicon/mb_1r2t_ros) [3D](https://github.com/simonllopez/radar_mb_1r2t-3D-model) |
 | Camsense X1          | Tria | 5.2Hz   | 2.08KHz | 0.1-8   |          |         | Class 1 | 50K?    |      | [Code](https://github.com/Vidicon/camsense-X1) |
 
@@ -44,6 +46,11 @@ Please also see this [blog post](https://kaia.ai/blog/arduino-lidar-library/) an
 - [A1 product datasheet, manual](https://www.slamtec.ai/product/slamtec-rplidar-a1/
   - [All products resources](https://www.slamtec.ai/downloads/) - datasheets, manuals, viewer, protocols, dimensions, 3D models, SDK, ROS2, ROS1
 - [Video](https://www.youtube.com/watch?v=f8IYjfiXsMk) (Arduino, ROS2)
+
+## SLAMTEC RPLIDAR C1
+- outputs object reflectivity in addition to distance
+- mating connector JST XH 5-pin (2.54mm)
+  - [wiring diagram](https://www.slamtec.ai/wp-content/uploads/2023/11/SLAMTEC_rplidar_datasheet_C1_v1.0_en.pdf)
 
 ## YDLIDAR X3 PRO
 - [Video](https://www.youtube.com/watch?v=_VuRCiO55gA) (Arduino, ROS2)
