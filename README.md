@@ -40,6 +40,7 @@ Please also see this [blog post](https://kaia.ai/blog/arduino-lidar-library/) an
 - [Video](https://www.youtube.com/watch?v=gaDnZ4Msw0E) (Arduino, ROS2)
 
 ## SLAMTEC RPLIDAR A1
+- [Datasheet, manual, protocol, dimensions, 3D model, SDK, ROS2, ROS1](https://www.slamtec.ai/downloads/)
 - [Video](https://www.youtube.com/watch?v=f8IYjfiXsMk) (Arduino, ROS2)
 
 ## YDLIDAR X3 PRO
