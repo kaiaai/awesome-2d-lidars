@@ -59,5 +59,5 @@ Please also see this [blog post](https://kaia.ai/blog/arduino-lidar-library/) an
 
 |   |   |
 |---|---|
-| ![Camsense X1 top](./images/PXL_20240325_004835636.jpg) | ![LD14P top side](./images/PXL_20240325_004844901.jpg) |
-| ![Camsense X1 bottom](./images/PXL_20240325_004824664.jpg) | ![LD14P bottom side](./images/PXL_20240325_004816813.jpg) |
+| ![Camsense X1 top](./images/PXL_20240325_004835636.webp) | ![LD14P top side](./images/PXL_20240325_004844901.webp) |
+| ![Camsense X1 bottom](./images/PXL_20240325_004824664.webp) | ![LD14P bottom side](./images/PXL_20240325_004816813.webp) |
