@@ -18,7 +18,7 @@ Please also see this [blog post](https://kaia.ai/blog/arduino-lidar-library/) an
 | YDLIDAR X2/X2L       | Tria |  5..8Hz | 3KHz    | 0.12-10 | ~$75-100 | 1,500h  | Class 1 |         |      | [PDF](https://www.ydlidar.com/Public/upload/files/2024-02-01/YDLIDAR%20X2%20Data%20Sheet%20V1.2(240124).pdf) |
 | YDLIDAR X3           | Tria |  5-10Hz | 3KHz    | 0.12-8  | ~$65     |         |         | 2K?     |      |      |
 | YDLIDAR X3 PRO       | Tria |  6-12Hz | 4KHz    | 0.12-8  | ~$70     | 1,500h  |         | 40K?    |      | [Link](https://static.generation-robots.com/media/YDLIDARX4PRODatasheet.pdf) |
-| XIAOMI LDS02RR       | Tria |   5Hz   | 1.8KHz  | 0.15-6? | ~$16     |         |         |         |      | Uses Neato protocol |
+| XIAOMI LDS02RR       | Tria |   5Hz   | 1.8KHz  | 0.15-6 | ~$16     |         |         |         |      | Uses Neato protocol |
 | XIAOMI LDS01RR       | ToF  |   5Hz   |         | 0.15-9  | ~$37     | 1,095h  | Class 1 |         |      | [Spec](https://www.youyeetoo.com/blog/lds01rr-lidar-stdps01rmain-108) [ROS2, Win](https://github.com/iliasam/LDS01RR_lidar/tree/main) |
 | Neato XV11           | Tria |   5Hz   | ~2KHz   | 0.15-6? | ~$35     |         |         |         | 195g | [ROS2](https://github.com/mjstn/xv_11_driver) [Char](https://www.diva-portal.org/smash/get/diva2:995686/FULLTEXT01.pdf) |
 | SLAMTEC RPLIDAR A1M8-R4 | Tria |  1-10Hz | 8KHz | 0.15-6  |          |         | Class 1 |         |      | [PDF](https://www.slamtec.ai/wp-content/uploads/2023/11/LD108_SLAMTEC_rplidar_datasheet_A1M8_v3.0_en.pdf) |
@@ -41,6 +41,13 @@ Please also see this [blog post](https://kaia.ai/blog/arduino-lidar-library/) an
 
 ## Xiaomi Mi 1st gen LDS02RR
 - [Video](https://www.youtube.com/watch?v=gaDnZ4Msw0E) (Arduino, ROS2)
+- Unofficial [specs, protocol, 3D model](https://github.com/Roborock-OpenSource/Cullinan)
+- Unofficial [3D model](https://grabcad.com/library/lidar-lds02rr-1)
+
+## Xiaomi Mi LDS01RR
+- [Specs](https://www.youyeetoo.com/blog/lds01rr-lidar-stdps01rmain-108)
+- [Specs, SDK, datasheet](https://www.youyeetoo.com/blog/lds01rr-lidar-stdps01rmain-108)
+- [Evaluation, Windows viewer](https://github.com/iliasam/LDS01RR_lidar)
 
 ## SLAMTEC RPLIDAR A1
 - [A1 product datasheet, manual](https://www.slamtec.ai/product/slamtec-rplidar-a1/
