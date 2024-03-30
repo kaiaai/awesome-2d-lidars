@@ -81,8 +81,13 @@ Please also see this [blog post](https://kaia.ai/blog/arduino-lidar-library/) an
 
 |   |   |
 |---|---|
-| ![Camsense X1 top](./images/PXL_20240325_004835636.webp) | ![LD14P top side](./images/PXL_20240325_004844901.webp) |
-| ![Camsense X1 bottom](./images/PXL_20240325_004824664.webp) | ![LD14P bottom side](./images/PXL_20240325_004816813.webp) |
+| ![Camsense X1 top](./images/Camsense_X1_top.webp) | ![Camsense X1 top side](./images/PXL_20240325_004844901.webp) |
+| ![Camsense X1 bottom](./images/Camsense_X1_bottom.webp) | ![Camsense X1 bottom side](./images/Camsense_X1_bottom_side.webp) |
+
+## 3irobotix Delta-2A
+|   |   |
+|---|---|
+| ![Delta-2A top](./images/Delta-2A_bottom.webp) | ![Delta-2A bottom](./images/Delta-2A_bottom.webp) |
 
 ### Miscellaneous
 
