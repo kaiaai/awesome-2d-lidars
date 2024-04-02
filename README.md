@@ -2,10 +2,10 @@
 Awesome 2D (low-cost) LiDAR list - specs, protocols, identification - photos/videos, wiring, code, model versions, performance (TODO)
 
 Please note - some of the information in the table below may be incorrect.
-- some LiDAR/LDS models do not have official datasheets available publically 🫤😵‍💫😭😭
-- some LiDAR/LDS models evolve over time - their specs change, while the model name remains unchanged 🤯🤯🤯
+- some LiDAR/LDS models do not have official datasheets available publically 🫤
+- some LiDAR/LDS models evolve over time - their specs change, while the model name remains unchanged
 - maximum distance specification is often poorly defined (needs object reflectivity, ambient illumination specified as well)
-  - ambient light resistance is usually poorly defined as well (needs object reflectivity, distance to object, ambient light spectrum)
+- ambient light resistance is usually poorly defined as well (needs object reflectivity, distance to object, ambient light spectrum)
 
 Please also see this [blog post](https://kaia.ai/blog/arduino-lidar-library/) and [library](https://github.com/kaiaai/LDS).
 
@@ -81,7 +81,7 @@ Please also see this [blog post](https://kaia.ai/blog/arduino-lidar-library/) an
 
 |   |   |
 |---|---|
-| ![Camsense X1 top](./images/Camsense_X1_top.webp) | ![Camsense X1 top side](./images/PXL_20240325_004844901.webp) |
+| ![Camsense X1 top](./images/Camsense_X1_top.webp) | ![Camsense X1 top side](./images/Camsense_X1_top_side.webp) |
 | ![Camsense X1 bottom](./images/Camsense_X1_bottom.webp) | ![Camsense X1 bottom side](./images/Camsense_X1_bottom_side.webp) |
 
 ## 3irobotix Delta-2A
