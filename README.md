@@ -24,14 +24,15 @@ Please also see this [blog post](https://kaia.ai/blog/arduino-lidar-library/) an
 | SLAMTEC RPLIDAR A1M8-R4 | Tria |  1-10Hz | 8KHz | 0.15-6  |          |         | Class 1 |         |      | [PDF](https://www.slamtec.ai/wp-content/uploads/2023/11/LD108_SLAMTEC_rplidar_datasheet_A1M8_v3.0_en.pdf) |
 | SLAMTEC RPLIDAR A1M8-R5 | Tria |  1-10Hz | 8KHz | 0.15-12 | ~$99     |         | Class 1 |         |      | [PDF](https://www.slamtec.ai/wp-content/uploads/2023/11/LD108_SLAMTEC_rplidar_datasheet_A1M8_v3.0_en.pdf) |
 | SLAMTEC RPLIDAR A2M12 | Tria |  5-15Hz | 16KHz | 0.2-10/12 |      |         | Class 1 |         |      | [Spec](https://www.slamtec.ai/product/slamtec-rplidar-a2/) |
-| SLAMTEC RPLIDAR C1M1-R2 | Fusion | 8-12(10)Hz | 5KHz | 0.2-10/12 | ~$60 |         | Class 1 | 40K? |      | [Spec](https://www.slamtec.ai/product/slamtec-rplidar-c1/) |
+| SLAMTEC RPLIDAR C1M1-R2 | Fusion | 8-12(10)Hz | 5KHz | 0.2-10/12 | ~$60 |      | Class 1 | 40K? |      | [Spec](https://www.slamtec.ai/product/slamtec-rplidar-c1/) |
 | 3irobotics Delta-2A  | Tria | ~5.25Hz?| ~1.9KHz?| 0.15-5? | ~$28     |         |         | 1K?     |      | [SDK](https://github.com/CWRU-AutonomousVehiclesLab/Delta-2B-Lidar-SDK) [Protocol](https://github.com/NotBlackMagic/Delta-2G-LiDAR-Driver/blob/master/Documents/Delta-1A%20EN.pdf) |
 | 3irobotics Delta-2B  | Tria | 4..10Hz?|  5KHz?  | 0.2..8? |          |         |         | 1K?     |      | [Arduino code](https://wiki.iarduino.ru/page/delta-2b-lidar-esp32/) |
 | 3irobotics Delta-2G  | Tria | ~5.25Hz?| ~1.9KHz?| 0.15-5? | ~$17     |         |         |         |      | [SDK](https://lidar.oss-cn-beijing.aliyuncs.com/Lidar.rar) [Protocol](https://github.com/NotBlackMagic/Delta-2G-LiDAR-Driver/blob/master/Documents/Delta-1A%20EN.pdf) |
 | Hitachi-LG HLS-LFCD2 | ToF  |   5Hz   | 1.8KHz  | 0.12-3.5| ~$28     |         | Class 1 | 10K?    |      | [Spec](https://emanual.robotis.com/docs/en/platform/turtlebot3/appendix_lds_01/) [ROS2](https://github.com/ROBOTIS-GIT/hls_lfcd_lds_driver) |
 | Hitachi-LG HLS-LFCD3 | Tria |   5Hz   | 2.3KHz  | 0.16-8  | ~$17     | 1,000h  | Class 1 | 25K?    |      | [Spec](https://emanual.robotis.com/docs/en/platform/turtlebot3/appendix_lds_02/) [ROS2](https://github.com/ROBOTIS-GIT/ld08_driver) |
-| LDROBOT LD14P        | Tria | 2..8Hz  | 4KHz    | 0.1-8   | ~$35     | 2,200h  |         | 80K?    |      | [Spec, Protocol](https://www.waveshare.com/wiki/D200_LiDAR_Kit) |
+| LDROBOT LD14P        | Tria | 2..8Hz  | 4KHz    | 0.1-8   | ~$35     | 2,200h  | Class 1 | 80K?    |      | [Spec, Protocol](https://www.waveshare.com/wiki/D200_LiDAR_Kit) |
 | LDROBOT LD20         |      |         |         |         |          |         |         |         |      |      |
+| LDROBOT LD08         | Tria | 2..10Hz | 2.3KHz  | 0.16-8  |          |         | Class 1 | 25K?    | 131g | [Datasheet](https://www.ldrobot.com/images/2023/03/02/LDROBOT_LD08_Datasheet_CN_V1.3_aoMhAtqQ.pdf) |
 | YDLIDAR(?) MB-1R2T   |      |         |         |         |          |         |         |         |      | [ROS2](https://github.com/g0mb4/mb_1r2t_ros2) [ROS1](https://github.com/Vidicon/mb_1r2t_ros) [3D](https://github.com/simonllopez/radar_mb_1r2t-3D-model) |
 | Camsense X1          | Tria | 5.2Hz   | 2.08KHz | 0.1-8   |          |         | Class 1 | 50K?    |      | [Code](https://github.com/Vidicon/camsense-X1) |
 
@@ -74,6 +75,10 @@ Please also see this [blog post](https://kaia.ai/blog/arduino-lidar-library/) an
 |   |   |
 |---|---|
 | ![LD14P top](./images/ld14p_top.jpg) | ![LD14P bottom](./images/ld14p_bottom.jpg) |
+
+## LDROBOT LD08
+- official [datasheet](https://www.ldrobot.com/images/2023/03/02/LDROBOT_LD08_Datasheet_CN_V1.3_aoMhAtqQ.pdf)
+- official product [webpage](https://www.ldrobot.com/ProductDetails?sensor_name=LD08)
 
 ## Camsense X1
 - [Video](https://www.youtube.com/shorts/kNBraxYKvvI) (Arduino, ROS2)
