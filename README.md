@@ -63,13 +63,14 @@ Please also see this [blog post](https://kaia.ai/blog/arduino-lidar-library/) an
 - [Video](https://www.youtube.com/watch?v=_VuRCiO55gA) (Arduino, ROS2)
 
 ## LDROBOT LD14P
+- official product [webpage](https://www.ldrobot.com/ProductDetails?sensor_name=LD14P)
+- official [datasheet](https://www.ldrobot.com/images/2023/03/02/LDROBOT_LD14P%20DataSheet_CN_v0.4_Wlmrp6QT.pdf) (Chinese)
 - [Video](https://www.youtube.com/watch?v=ebbHqs4lW0U) (Arduino, ROS2)
-- specs, viewer, protocol, manual, SDK, ROS2, 3D model [link](https://www.waveshare.com/wiki/D200_LiDAR_Kit)
-- also comes as D200 evaluation kit 
+- specs, viewer, wiring diagram, protocol, manual, SDK, ROS2, 3D model [link](https://www.waveshare.com/wiki/D200_LiDAR_Kit)
+  - uses a 4-pin JST GH (1.25mm with latch) connector
+  - also comes as D200 evaluation kit (that includes the USB serial dongle)
 - Arduino ESP32 wiring [tutorial](https://kaia.ai/blog/tutorial-connect-ld14p-lidar/)
-- connector 4-pin JST GH (1.25mm with latch)
-  - [wiring diagram](https://www.waveshare.com/wiki/D200_LiDAR_Kit)
-
+  
 |   |   |
 |---|---|
 | ![LD14P top](./images/ld14p_top.jpg) | ![LD14P bottom](./images/ld14p_bottom.jpg) |
