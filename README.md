@@ -50,7 +50,7 @@ Please also see this [blog post](https://kaia.ai/blog/arduino-lidar-library/) an
 - [Evaluation, Windows viewer](https://github.com/iliasam/LDS01RR_lidar)
 
 ## SLAMTEC RPLIDAR A1
-- [A1 product datasheet, manual](https://www.slamtec.ai/product/slamtec-rplidar-a1/
+- [A1 product datasheet, manual](https://www.slamtec.ai/product/slamtec-rplidar-a1/)
   - [All products resources](https://www.slamtec.ai/downloads/) - datasheets, manuals, viewer, protocols, dimensions, 3D models, SDK, ROS2, ROS1
 - [Video](https://www.youtube.com/watch?v=f8IYjfiXsMk) (Arduino, ROS2)
 
@@ -75,6 +75,7 @@ Please also see this [blog post](https://kaia.ai/blog/arduino-lidar-library/) an
 | ![LD14P top](./images/ld14p_top.jpg) | ![LD14P bottom](./images/ld14p_bottom.jpg) |
 
 ## Camsense X1
+- [Video](https://www.youtube.com/shorts/kNBraxYKvvI) (Arduino, ROS2)
 - [ROS2, ROS1, protocol, 3D model](https://github.com/Vidicon/camsense-X1)
 - LDS product [home page](https://www.camsense.cn/robot/camsenseX1.html)
 - Wiring [Camsense X1 bottom](./images/PXL_20240325_004824664.jpg)
