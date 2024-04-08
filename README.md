@@ -1,15 +1,14 @@
-# awesome-2d-lidars
 Awesome 2D (low-cost) LiDAR list - specs, protocols, identification photos/videos, wiring, code, model versions, performance (TODO)
 
 Please note - some of the information in the table below may be incorrect.
 - some LiDAR/LDS models do not have official datasheets available publically 🫤
 - some LiDAR/LDS models evolve over time - their specs change, while the model name remains unchanged
-- maximum distance specification is often poorly defined (needs object reflectivity, ambient illumination specified as well)
-- ambient light resistance is usually poorly defined as well (needs object reflectivity, distance to object, ambient light spectrum)
+- maximum distance specification is often poorly defined (needs object reflectivity and ambient illumination specified)
+- ambient light resistance is often poorly defined as well (needs object reflectivity, distance to object and ambient light spectrum)
 
 Please also see this [blog post](https://kaia.ai/blog/arduino-lidar-library/) and [library](https://github.com/kaiaai/LDS).
 
-## LiDAR/LDS Comparison Table
+## Comparison Table
 
 | Model                | Type | Scans per sec | Points per sec | Range, Meters |   Accuracy    | Price Retail | Service Life | Safety | Max Ambient, Lux | Laser w/len | Weight | Links |
 |----------------------|------|---------------|----------------|---------------|---------------|--------------|--------------|--------|------------------|-------------|--------|-------|
@@ -46,6 +45,7 @@ Please also see this [blog post](https://kaia.ai/blog/arduino-lidar-library/) an
 | Camsense X1          | Tria | 5.2Hz   | 2.08KHz | 0.1-8   |                 |         | Class 1 | 50K?   | | | | [Code](https://github.com/Vidicon/camsense-X1) |
 
 Notes:
+- "Tria" means "triangulation"; ToF means "time-of-flight"
 - Values in parenthesis indicates the default and/or recommended value
 - Values like "@80%" refer to the target's reflectivity
 
@@ -77,7 +77,7 @@ Notes:
 - [Video](https://www.youtube.com/watch?v=_VuRCiO55gA) (Arduino, ROS2)
 
 ## YDLIDAR X4
-- no longer manufactured, as far as I understand
+- deprecated, as far as I understand
 
 ## LDROBOT LD14P
 - official product [webpage](https://www.ldrobot.com/ProductDetails?sensor_name=LD14P)
