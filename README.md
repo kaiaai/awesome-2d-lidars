@@ -33,8 +33,8 @@ Please also see this [blog post](https://kaia.ai/blog/arduino-lidar-library/) an
 | 3irobotics Delta-2G  | Tria | ~5.25Hz?| ~1.9KHz?| 0.15-5? | | ~$17     |         |         |        | |      | [SDK](https://lidar.oss-cn-beijing.aliyuncs.com/Lidar.rar) [Protocol](https://github.com/NotBlackMagic/Delta-2G-LiDAR-Driver/blob/master/Documents/Delta-1A%20EN.pdf) |
 | Hitachi-LG HLS-LFCD2 | ToF  |   5Hz   | 1.8KHz  | 0.12-3.5| | ~$28     |         | Class 1 | 10K?   | |      | [Spec](https://emanual.robotis.com/docs/en/platform/turtlebot3/appendix_lds_01/) [ROS2](https://github.com/ROBOTIS-GIT/hls_lfcd_lds_driver) |
 | Hitachi-LG HLS-LFCD3 | Tria |   5Hz   | 2.3KHz  | 0.16-8  | | ~$17     | 1,000h  | Class 1 | 25K?   | |      | [Spec](https://emanual.robotis.com/docs/en/platform/turtlebot3/appendix_lds_02/) [ROS2](https://github.com/ROBOTIS-GIT/ld08_driver) |
-| LDROBOT LD14P        | Tria | 2..8Hz  | 4KHz    | 0.1-8   | | ~$35     | 2,200h  | Class 1 | 80K?   | |      | [Spec, Protocol](https://www.waveshare.com/wiki/D200_LiDAR_Kit) |
-| LDROBOT LD08         | Tria | 2..10Hz | 2.3KHz  | 0.16-8  | |          |         | Class 1 | 25K?   | | 131g | [Datasheet](https://www.ldrobot.com/images/2023/03/02/LDROBOT_LD08_Datasheet_CN_V1.3_aoMhAtqQ.pdf) |
+| LDROBOT LD14P        | Tria | 2..8Hz  | 4KHz    | 0.1-8   |                 | ~$35     | 2,200h  | Class 1 | 80K?   | |      | [Spec, Protocol](https://www.waveshare.com/wiki/D200_LiDAR_Kit) |
+| LDROBOT LD08         | Tria | 2..10Hz | 2.3KHz  | 0.16-8  |                 |          |         | Class 1 | 25K?   | | 131g | [Datasheet](https://www.ldrobot.com/images/2023/03/02/LDROBOT_LD08_Datasheet_CN_V1.3_aoMhAtqQ.pdf) |
 | LDROBOT LD20         |      |         |         |         |                 |         |         |        | | |     | |
 | LDROBOT STL-27L      | ToF  | 10Hz    | 21.6KHz | 0.03-25 | ±15mm 0.03-2m   |         |         | 60K    | | |     | [Product](https://www.ldrobot.com/ProductDetails?sensor_name=STL-27L) |
 | LDROBOT STL-19P      | ToF  | 10Hz    | 5KHz    | 0.03-12 | ±10mm 0.03-0.5m |         |         |        | | |     | [Product](https://www.ldrobot.com/ProductDetails?sensor_name=STL-19P) |
@@ -42,7 +42,7 @@ Please also see this [blog post](https://kaia.ai/blog/arduino-lidar-library/) an
 | LDROBOT STL-06P      | ToF  | 10Hz    | 5KHz    | 0.02-12 | ±10mm 0.03-0.5m |         |         |        | | |     | [Product](https://www.ldrobot.com/ProductDetails?sensor_name=STL-06P) |
 | LDROBOT STL-26       | ToF  | 6Hz     | 5KHz    | 0.1-12  | ±10mm 0.03-0.5m |         |         | 60K    | | |     | [Product](https://www.ldrobot.com/ProductDetails?sensor_name=STL-26) |
 | YDLIDAR(?) MB-1R2T   |      |         |         |         |                 |         |         |        | | |     | [ROS2](https://github.com/g0mb4/mb_1r2t_ros2) [ROS1](https://github.com/Vidicon/mb_1r2t_ros) [3D](https://github.com/simonllopez/radar_mb_1r2t-3D-model) |
-| Camsense X1          | Tria | 5.2Hz   | 2.08KHz | 0.1-8   |                 |         | Class 1 | 50K?   | | | | [Code](https://github.com/Vidicon/camsense-X1) |
+| Camsense X1          | Tria | 5.2Hz   | 2.08KHz | 0.1-8   |                 | ~$19    | Class 1 | 50K?   | | | | [Code](https://github.com/Vidicon/camsense-X1) |
 
 Notes:
 - "Tria" means "triangulation"; ToF means "time-of-flight"
