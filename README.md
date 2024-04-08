@@ -11,35 +11,39 @@ Please also see this [blog post](https://kaia.ai/blog/arduino-lidar-library/) an
 
 ## LiDAR/LDS Comparison Table
 
-| Model                | Type | Scans per sec | Points per sec | Range, Meters |   Accuracy    | Price Retail | Service Life | Safety | Max Ambient, Lux | Weight | Links |
-|----------------------|------|---------------|----------------|---------------|---------------|-------------|--------------|--------|--------------|--------|-------|
-| YDLIDAR X4           | Tria |  6-12Hz | 5KHz    | 0.12-10 | | ~$70-90  |         | Class 1 |         |      | [PDF](https://www.ydlidar.com/Public/upload/files/2024-02-01/YDLIDAR%20X4%20Data%20sheet%20V1.2(240125).pdf) |
-| YDLIDAR X4 PRO       | Tria |  6-12Hz | 5KHz    | 0.12-10 | | ~$75-100 | 1,500h  | Class 1 |         |      | [PDF](https://www.ydlidar.com/Public/upload/files/2024-02-01/YDLIDAR%20X4PRO%20Datasheet%20V1.1%20(240124).pdf) |
-| YDLIDAR X2/X2L       | Tria |  5-8Hz (6) | 3KHz    | 0.12-8 @80% | | ~$75-100 | 1,500h  | Class 1 | 2K |      | [PDF](https://www.ydlidar.com/Public/upload/files/2024-02-01/YDLIDAR%20X2%20Data%20Sheet%20V1.2(240124).pdf) |
-| YDLIDAR X3           | Tria |  5-10Hz | 3KHz    | 0.12-8  | | ~$65     |         |         | 2K?     |      |      |
-| YDLIDAR X3 PRO       | Tria |  6-12Hz | 4KHz    | 0.12-8  | | ~$70     | 1,500h  |         | 40K?    |      | [Link](https://static.generation-robots.com/media/YDLIDARX4PRODatasheet.pdf) |
-| XIAOMI LDS02RR       | Tria |   5Hz   | 1.8KHz  | 0.15-6  | | ~$16     |         |         |         |      | Uses Neato protocol |
-| XIAOMI LDS01RR       | ToF  |   5Hz   |         | 0.15-9  | | ~$37     | 1,095h  | Class 1 |         |      | [Spec](https://www.youyeetoo.com/blog/lds01rr-lidar-stdps01rmain-108) [ROS2, Win](https://github.com/iliasam/LDS01RR_lidar/tree/main) |
-| Neato XV11           | Tria |   5Hz   | ~2KHz   | 0.15-6? | | ~$35     |         |         |         | 195g | [ROS2](https://github.com/mjstn/xv_11_driver) [Char](https://www.diva-portal.org/smash/get/diva2:995686/FULLTEXT01.pdf) |
-| SLAMTEC RPLIDAR A1M8-R4 | Tria |  1-10Hz | 8KHz | 0.15-6  | |          |         | Class 1 |         |      | [PDF](https://www.slamtec.ai/wp-content/uploads/2023/11/LD108_SLAMTEC_rplidar_datasheet_A1M8_v3.0_en.pdf) |
-| SLAMTEC RPLIDAR A1M8-R5 | Tria |  1-10Hz | 8KHz | 0.15-12 | | ~$99     |         | Class 1 |         |      | [PDF](https://www.slamtec.ai/wp-content/uploads/2023/11/LD108_SLAMTEC_rplidar_datasheet_A1M8_v3.0_en.pdf) |
-| SLAMTEC RPLIDAR A2M12 | Tria |  5-15Hz | 16KHz | 0.2-10/12 | |     |         | Class 1 |         |      | [Spec](https://www.slamtec.ai/product/slamtec-rplidar-a2/) |
-| SLAMTEC RPLIDAR C1M1-R2 | Fusion | 8-12(10)Hz | 5KHz | 0.2-10/12 | | ~$60 |      | Class 1 | 40K? |      | [Spec](https://www.slamtec.ai/product/slamtec-rplidar-c1/) |
-| 3irobotics Delta-2A  | Tria | ~5.25Hz?| ~1.9KHz?| 0.15-5? | | ~$28     |         |         | 1K?     |      | [SDK](https://github.com/CWRU-AutonomousVehiclesLab/Delta-2B-Lidar-SDK) [Protocol](https://github.com/NotBlackMagic/Delta-2G-LiDAR-Driver/blob/master/Documents/Delta-1A%20EN.pdf) |
-| 3irobotics Delta-2B  | Tria | 4..10Hz?|  5KHz?  | 0.2..8? | |        |         |         | 1K?     |      | [Arduino code](https://wiki.iarduino.ru/page/delta-2b-lidar-esp32/) |
-| 3irobotics Delta-2G  | Tria | ~5.25Hz?| ~1.9KHz?| 0.15-5? | | ~$17   |         |         |         |      | [SDK](https://lidar.oss-cn-beijing.aliyuncs.com/Lidar.rar) [Protocol](https://github.com/NotBlackMagic/Delta-2G-LiDAR-Driver/blob/master/Documents/Delta-1A%20EN.pdf) |
-| Hitachi-LG HLS-LFCD2 | ToF  |   5Hz   | 1.8KHz  | 0.12-3.5| | ~$28   |         | Class 1 | 10K?    |      | [Spec](https://emanual.robotis.com/docs/en/platform/turtlebot3/appendix_lds_01/) [ROS2](https://github.com/ROBOTIS-GIT/hls_lfcd_lds_driver) |
-| Hitachi-LG HLS-LFCD3 | Tria |   5Hz   | 2.3KHz  | 0.16-8  | | ~$17   | 1,000h  | Class 1 | 25K?    |      | [Spec](https://emanual.robotis.com/docs/en/platform/turtlebot3/appendix_lds_02/) [ROS2](https://github.com/ROBOTIS-GIT/ld08_driver) |
-| LDROBOT LD14P        | Tria | 2..8Hz  | 4KHz    | 0.1-8   | | ~$35   | 2,200h  | Class 1 | 80K?    |      | [Spec, Protocol](https://www.waveshare.com/wiki/D200_LiDAR_Kit) |
-| LDROBOT LD08         | Tria | 2..10Hz | 2.3KHz  | 0.16-8  | |        |         | Class 1 | 25K?    | 131g | [Datasheet](https://www.ldrobot.com/images/2023/03/02/LDROBOT_LD08_Datasheet_CN_V1.3_aoMhAtqQ.pdf) |
-| LDROBOT LD20         |      |         |         |         |                 |         |         |         | |     | |
-| LDROBOT STL-27L      | ToF  | 10Hz    | 21.6KHz | 0.03-25 | ±15mm 0.03-2m   |         |         | 60K     | |     | [Product](https://www.ldrobot.com/ProductDetails?sensor_name=STL-27L) |
-| LDROBOT STL-19P      | ToF  | 10Hz    | 5KHz    | 0.03-12 | ±10mm 0.03-0.5m |         |         |         | |     | [Product](https://www.ldrobot.com/ProductDetails?sensor_name=STL-19P) |
-| LDROBOT STL-26N      | ToF  | 6Hz     | 5KHz    | 0.04-12 | ±8mm 0.1-0.5m   |         |         | 80K     | |     | [Product](https://www.ldrobot.com/ProductDetails?sensor_name=STL-26N) |
-| LDROBOT STL-06P      | ToF  | 10Hz    | 5KHz    | 0.02-12 | ±10mm 0.03-0.5m |         |         |         | |     | [Product](https://www.ldrobot.com/ProductDetails?sensor_name=STL-06P) |
-| LDROBOT STL-26       | ToF  | 6Hz     | 5KHz    | 0.1-12  | ±10mm 0.03-0.5m |         |         | 60K     | |     | [Product](https://www.ldrobot.com/ProductDetails?sensor_name=STL-26) |
-| YDLIDAR(?) MB-1R2T   |      |         |         |         |                 |         |         |         | |     | [ROS2](https://github.com/g0mb4/mb_1r2t_ros2) [ROS1](https://github.com/Vidicon/mb_1r2t_ros) [3D](https://github.com/simonllopez/radar_mb_1r2t-3D-model) |
-| Camsense X1          | Tria | 5.2Hz   | 2.08KHz | 0.1-8   |          |         | Class 1 | 50K?    |      | | [Code](https://github.com/Vidicon/camsense-X1) |
+| Model                | Type | Scans per sec | Points per sec | Range, Meters |   Accuracy    | Price Retail | Service Life | Safety | Max Ambient, Lux | Laser w/len | Weight | Links |
+|----------------------|------|---------------|----------------|---------------|---------------|--------------|--------------|--------|------------------|-------------|--------|-------|
+| YDLIDAR X4           | Tria |  6-12Hz | 5KHz    | 0.12-10 | | ~$70-90  |         | Class 1 | 2K     | 793nm | 180g | [PDF](https://www.ydlidar.com/Public/upload/files/2024-02-01/YDLIDAR%20X4%20Data%20sheet%20V1.2(240125).pdf) |
+| YDLIDAR X4 PRO       | Tria |  6-12Hz | 5KHz    | 0.12-10 | | ~$75-100 | 1,500h  | Class 1 | 40K    | 793nm | 178g | [PDF](https://www.ydlidar.com/Public/upload/files/2024-02-01/YDLIDAR%20X4PRO%20Datasheet%20V1.1%20(240124).pdf) |
+| YDLIDAR X2/X2L       | Tria |  5-8Hz (6) | 3KHz | 0.12-8 @80% | | ~$75-100 | 1,500h | Class 1 | 2K  | 793nm | 126g | [PDF](https://www.ydlidar.com/Public/upload/files/2024-02-01/YDLIDAR%20X2%20Data%20Sheet%20V1.2(240124).pdf) |
+| YDLIDAR X3           | Tria |  5-10Hz | 3KHz    | 0.12-8  | | ~$65     |         |         | 2K?    |       |      |      |
+| YDLIDAR X3 PRO       | Tria |  6-12Hz | 4KHz    | 0.12-8  | | ~$70     | 1,500h  |         | 40K?   |       |      | [Datasheet](https://static.generation-robots.com/media/YDLIDARX4PRODatasheet.pdf) |
+| YDLIDAR G1           | Tria |  5-12Hz (7) | 4-9KHz  | 0.12-8 @80% |  | |         | Class 1 | 20K    | 793nm | 140g | [Product](https://www.ydlidar.com/products/view/13.html) |
+| YDLIDAR G2           | Tria |  5-12Hz (7) | 5KHz | 0.12-16 @80% |    | |         | Class 1 | 2K     | 792nm | 185g | [Product](https://www.ydlidar.com/products/view/1.html) |
+| YDLIDAR G4           | Tria |  5-12Hz (7) | 9KHz | 0.12-16 @80% |    | |         | Class 1 | 2K     | 792nm | 214g | [Product](https://www.ydlidar.com/products/view/3.html) |
+| YDLIDAR G6           | Tria |  5-12Hz (7) | 10-18KHz (18) | 0.12-16 @80% | | |   | Class 1 | 2K     | 792nm | 214g | [Product](https://www.ydlidar.com/products/view/4.html) |
+| XIAOMI LDS02RR       | Tria |   5Hz   | 1.8KHz  | 0.15-6  | | ~$16     |         |         |        |       |      | Uses Neato protocol |
+| XIAOMI LDS01RR       | ToF  |   5Hz   |         | 0.15-9  | | ~$37     | 1,095h  | Class 1 |        |       |      | [Spec](https://www.youyeetoo.com/blog/lds01rr-lidar-stdps01rmain-108) [ROS2, Win](https://github.com/iliasam/LDS01RR_lidar/tree/main) |
+| Neato XV11           | Tria |   5Hz   | ~2KHz   | 0.15-6? | | ~$35     |         |         |        |       | 195g | [ROS2](https://github.com/mjstn/xv_11_driver) [Char](https://www.diva-portal.org/smash/get/diva2:995686/FULLTEXT01.pdf) |
+| SLAMTEC RPLIDAR A1M8-R4 | Tria |  1-10Hz | 8KHz | 0.15-6  | |          |         | Class 1 |        |       |      | [PDF](https://www.slamtec.ai/wp-content/uploads/2023/11/LD108_SLAMTEC_rplidar_datasheet_A1M8_v3.0_en.pdf) |
+| SLAMTEC RPLIDAR A1M8-R5 | Tria |  1-10Hz | 8KHz | 0.15-12 | | ~$99     |         | Class 1 |        |       |      | [PDF](https://www.slamtec.ai/wp-content/uploads/2023/11/LD108_SLAMTEC_rplidar_datasheet_A1M8_v3.0_en.pdf) |
+| SLAMTEC RPLIDAR A2M12 | Tria |  5-15Hz | 16KHz | 0.2-10/12 | |         |         | Class 1 |        | |      | [Spec](https://www.slamtec.ai/product/slamtec-rplidar-a2/) |
+| SLAMTEC RPLIDAR C1M1-R2 | Fusion | 8-12(10)Hz | 5KHz | 0.2-10/12 | | ~$60 |      | Class 1 | 40K?   | |      | [Spec](https://www.slamtec.ai/product/slamtec-rplidar-c1/) |
+| 3irobotics Delta-2A  | Tria | ~5.25Hz?| ~1.9KHz?| 0.15-5? | | ~$28     |         |         | 1K?    | |      | [SDK](https://github.com/CWRU-AutonomousVehiclesLab/Delta-2B-Lidar-SDK) [Protocol](https://github.com/NotBlackMagic/Delta-2G-LiDAR-Driver/blob/master/Documents/Delta-1A%20EN.pdf) |
+| 3irobotics Delta-2B  | Tria | 4..10Hz?|  5KHz?  | 0.2..8? | |          |         |         | 1K?    | |      | [Arduino code](https://wiki.iarduino.ru/page/delta-2b-lidar-esp32/) |
+| 3irobotics Delta-2G  | Tria | ~5.25Hz?| ~1.9KHz?| 0.15-5? | | ~$17     |         |         |        | |      | [SDK](https://lidar.oss-cn-beijing.aliyuncs.com/Lidar.rar) [Protocol](https://github.com/NotBlackMagic/Delta-2G-LiDAR-Driver/blob/master/Documents/Delta-1A%20EN.pdf) |
+| Hitachi-LG HLS-LFCD2 | ToF  |   5Hz   | 1.8KHz  | 0.12-3.5| | ~$28     |         | Class 1 | 10K?   | |      | [Spec](https://emanual.robotis.com/docs/en/platform/turtlebot3/appendix_lds_01/) [ROS2](https://github.com/ROBOTIS-GIT/hls_lfcd_lds_driver) |
+| Hitachi-LG HLS-LFCD3 | Tria |   5Hz   | 2.3KHz  | 0.16-8  | | ~$17     | 1,000h  | Class 1 | 25K?   | |      | [Spec](https://emanual.robotis.com/docs/en/platform/turtlebot3/appendix_lds_02/) [ROS2](https://github.com/ROBOTIS-GIT/ld08_driver) |
+| LDROBOT LD14P        | Tria | 2..8Hz  | 4KHz    | 0.1-8   | | ~$35     | 2,200h  | Class 1 | 80K?   | |      | [Spec, Protocol](https://www.waveshare.com/wiki/D200_LiDAR_Kit) |
+| LDROBOT LD08         | Tria | 2..10Hz | 2.3KHz  | 0.16-8  | |          |         | Class 1 | 25K?   | | 131g | [Datasheet](https://www.ldrobot.com/images/2023/03/02/LDROBOT_LD08_Datasheet_CN_V1.3_aoMhAtqQ.pdf) |
+| LDROBOT LD20         |      |         |         |         |                 |         |         |        | | |     | |
+| LDROBOT STL-27L      | ToF  | 10Hz    | 21.6KHz | 0.03-25 | ±15mm 0.03-2m   |         |         | 60K    | | |     | [Product](https://www.ldrobot.com/ProductDetails?sensor_name=STL-27L) |
+| LDROBOT STL-19P      | ToF  | 10Hz    | 5KHz    | 0.03-12 | ±10mm 0.03-0.5m |         |         |        | | |     | [Product](https://www.ldrobot.com/ProductDetails?sensor_name=STL-19P) |
+| LDROBOT STL-26N      | ToF  | 6Hz     | 5KHz    | 0.04-12 | ±8mm 0.1-0.5m   |         |         | 80K    | | |     | [Product](https://www.ldrobot.com/ProductDetails?sensor_name=STL-26N) |
+| LDROBOT STL-06P      | ToF  | 10Hz    | 5KHz    | 0.02-12 | ±10mm 0.03-0.5m |         |         |        | | |     | [Product](https://www.ldrobot.com/ProductDetails?sensor_name=STL-06P) |
+| LDROBOT STL-26       | ToF  | 6Hz     | 5KHz    | 0.1-12  | ±10mm 0.03-0.5m |         |         | 60K    | | |     | [Product](https://www.ldrobot.com/ProductDetails?sensor_name=STL-26) |
+| YDLIDAR(?) MB-1R2T   |      |         |         |         |                 |         |         |        | | |     | [ROS2](https://github.com/g0mb4/mb_1r2t_ros2) [ROS1](https://github.com/Vidicon/mb_1r2t_ros) [3D](https://github.com/simonllopez/radar_mb_1r2t-3D-model) |
+| Camsense X1          | Tria | 5.2Hz   | 2.08KHz | 0.1-8   |                 |         | Class 1 | 50K?   | | | | [Code](https://github.com/Vidicon/camsense-X1) |
 
 Notes:
 - Values in parenthesis indicates the default and/or recommended value
