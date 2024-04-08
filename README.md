@@ -11,11 +11,11 @@ Please also see this [blog post](https://kaia.ai/blog/arduino-lidar-library/) an
 
 ## LiDAR/LDS Comparison Table
 
-| Model                | Type | Scans per sec | Points per sec | Range, Meters |   Accuracy    | Price Retail | Service Life | Safety | Ambient, Lux | Weight | Links |
+| Model                | Type | Scans per sec | Points per sec | Range, Meters |   Accuracy    | Price Retail | Service Life | Safety | Max Ambient, Lux | Weight | Links |
 |----------------------|------|---------------|----------------|---------------|---------------|-------------|--------------|--------|--------------|--------|-------|
 | YDLIDAR X4           | Tria |  6-12Hz | 5KHz    | 0.12-10 | | ~$70-90  |         | Class 1 |         |      | [PDF](https://www.ydlidar.com/Public/upload/files/2024-02-01/YDLIDAR%20X4%20Data%20sheet%20V1.2(240125).pdf) |
 | YDLIDAR X4 PRO       | Tria |  6-12Hz | 5KHz    | 0.12-10 | | ~$75-100 | 1,500h  | Class 1 |         |      | [PDF](https://www.ydlidar.com/Public/upload/files/2024-02-01/YDLIDAR%20X4PRO%20Datasheet%20V1.1%20(240124).pdf) |
-| YDLIDAR X2/X2L       | Tria |  5..8Hz | 3KHz    | 0.12-10 | | ~$75-100 | 1,500h  | Class 1 |         |      | [PDF](https://www.ydlidar.com/Public/upload/files/2024-02-01/YDLIDAR%20X2%20Data%20Sheet%20V1.2(240124).pdf) |
+| YDLIDAR X2/X2L       | Tria |  5-8Hz (6) | 3KHz    | 0.12-8 @80% | | ~$75-100 | 1,500h  | Class 1 | 2K |      | [PDF](https://www.ydlidar.com/Public/upload/files/2024-02-01/YDLIDAR%20X2%20Data%20Sheet%20V1.2(240124).pdf) |
 | YDLIDAR X3           | Tria |  5-10Hz | 3KHz    | 0.12-8  | | ~$65     |         |         | 2K?     |      |      |
 | YDLIDAR X3 PRO       | Tria |  6-12Hz | 4KHz    | 0.12-8  | | ~$70     | 1,500h  |         | 40K?    |      | [Link](https://static.generation-robots.com/media/YDLIDARX4PRODatasheet.pdf) |
 | XIAOMI LDS02RR       | Tria |   5Hz   | 1.8KHz  | 0.15-6  | | ~$16     |         |         |         |      | Uses Neato protocol |
@@ -40,6 +40,10 @@ Please also see this [blog post](https://kaia.ai/blog/arduino-lidar-library/) an
 | LDROBOT STL-26       | ToF  | 6Hz     | 5KHz    | 0.1-12  | ±10mm 0.03-0.5m |         |         | 60K     | |     | [Product](https://www.ldrobot.com/ProductDetails?sensor_name=STL-26) |
 | YDLIDAR(?) MB-1R2T   |      |         |         |         |                 |         |         |         | |     | [ROS2](https://github.com/g0mb4/mb_1r2t_ros2) [ROS1](https://github.com/Vidicon/mb_1r2t_ros) [3D](https://github.com/simonllopez/radar_mb_1r2t-3D-model) |
 | Camsense X1          | Tria | 5.2Hz   | 2.08KHz | 0.1-8   |          |         | Class 1 | 50K?    |      | | [Code](https://github.com/Vidicon/camsense-X1) |
+
+Notes:
+- Values in parenthesis indicates the default and/or recommended value
+- Values like "@80%" refer to the target's reflectivity
 
 ## Neato XV11
 - [Video](https://www.youtube.com/watch?v=kfk1Q0RSJpI) (Arduino, ROS2)
