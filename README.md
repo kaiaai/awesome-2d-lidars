@@ -68,6 +68,9 @@ Please also see this [blog post](https://kaia.ai/blog/arduino-lidar-library/) an
 ## YDLIDAR X3 PRO
 - [Video](https://www.youtube.com/watch?v=_VuRCiO55gA) (Arduino, ROS2)
 
+## YDLIDAR X4
+- no longer manufactured, as far as I understand
+
 ## LDROBOT LD14P
 - official product [webpage](https://www.ldrobot.com/ProductDetails?sensor_name=LD14P)
 - official [datasheet](https://www.ldrobot.com/images/2023/03/02/LDROBOT_LD14P%20DataSheet_CN_v0.4_Wlmrp6QT.pdf) (Chinese)
