@@ -42,7 +42,8 @@ Please also see this [blog post](https://kaia.ai/blog/arduino-lidar-library/) an
 | LDROBOT STL-06P      | ToF  | 10Hz    | 5KHz    | 0.02-12 | ±10mm 0.03-0.5m |         |         |        | | |     | [Product](https://www.ldrobot.com/ProductDetails?sensor_name=STL-06P) |
 | LDROBOT STL-26       | ToF  | 6Hz     | 5KHz    | 0.1-12  | ±10mm 0.03-0.5m |         |         | 60K    | | |     | [Product](https://www.ldrobot.com/ProductDetails?sensor_name=STL-26) |
 | YDLIDAR(?) MB-1R2T   |      |         |         |         |                 |         |         |        | | |     | [ROS2](https://github.com/g0mb4/mb_1r2t_ros2) [ROS1](https://github.com/Vidicon/mb_1r2t_ros) [3D](https://github.com/simonllopez/radar_mb_1r2t-3D-model) |
-| Camsense X1          | Tria | 5.2Hz   | 2.08KHz | 0.1-8   |                 | ~$19    | Class 1 | 50K?   | | | | [Code](https://github.com/Vidicon/camsense-X1) |
+| Camsense X1          | Tria | 5.2Hz   | 2.08KHz | 0.1-8   |                 | ~$19    | Class 1 | 50K    | | | | [Code](https://github.com/Vidicon/camsense-X1) [Product](https://www.camsense.cn/en/robot/camsenseX1.html) |
+| Camsense X2          | Tria | 5.2Hz   | 3KHz (2.08) | 0.12-8  |             |         | Class 1 | 50K    | | 780nm EEL, 808nm VCSEL | | [Product](https://www.camsense.cn/en/robot/camsenseX2.html) |
 
 Notes:
 - "Tria" means "triangulation"; ToF means "time-of-flight"
