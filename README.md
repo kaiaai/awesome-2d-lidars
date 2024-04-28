@@ -37,7 +37,7 @@ Please also see this [blog post](https://kaia.ai/blog/arduino-lidar-library/) an
 | 3irobotics Delta-2G  | Tria | ~5.25Hz?| ~1.9KHz?| 0.15-5? | | ~$17     |         |         |        | |      | [SDK](https://lidar.oss-cn-beijing.aliyuncs.com/Lidar.rar) [Protocol](https://github.com/NotBlackMagic/Delta-2G-LiDAR-Driver/blob/master/Documents/Delta-1A%20EN.pdf) |
 | Hitachi-LG HLS-LFCD2 | ToF  |   5Hz   | 1.8KHz  | 0.12-3.5| | ~$28     |         | Class 1 | 10K?   | |      | [Spec](https://emanual.robotis.com/docs/en/platform/turtlebot3/appendix_lds_01/) [ROS2](https://github.com/ROBOTIS-GIT/hls_lfcd_lds_driver) |
 | Hitachi-LG HLS-LFCD3 | Tria |   5Hz   | 2.3KHz  | 0.16-8  | | ~$17     | 1,000h  | Class 1 | 25K?   | |      | [Spec](https://emanual.robotis.com/docs/en/platform/turtlebot3/appendix_lds_02/) [ROS2](https://github.com/ROBOTIS-GIT/ld08_driver) |
-| LDROBOT LD14P        | Tria | 2..8Hz  | 4KHz    | 0.1-8   |                 | ~$35     | 2,200h  | Class 1 | 80K?   | |      | [Spec, Protocol](https://www.waveshare.com/wiki/D200_LiDAR_Kit) |
+| LDROBOT LD14P        | Tria | 2..8Hz  | 4KHz    | 0.1-8   |                 | ~$35     | 2,200h  | Class 1 | 80K?   | |      | [Datasheet](https://robu.in/wp-content/uploads/2022/12/LD14.pdf) [Spec Protocol](https://www.waveshare.com/wiki/D200_LiDAR_Kit) |
 | LDROBOT LD08         | Tria | 2..10Hz | 2.3KHz  | 0.16-8  |                 |          |         | Class 1 | 25K?   | | 131g | [Datasheet](https://www.ldrobot.com/images/2023/03/02/LDROBOT_LD08_Datasheet_CN_V1.3_aoMhAtqQ.pdf) |
 | LDROBOT LD20         |      |         |         |         |                 |         |         |        | | |     | |
 | LDROBOT STL-27L      | ToF  | 10Hz    | 21.6KHz | 0.03-25 | ±15mm 0.03-2m   |         |         | 60K    | | |     | [Product](https://www.ldrobot.com/ProductDetails?sensor_name=STL-27L) |
@@ -86,7 +86,7 @@ Notes:
 
 ## LDROBOT LD14P
 - official product [webpage](https://www.ldrobot.com/ProductDetails?sensor_name=LD14P)
-- official [datasheet](https://www.ldrobot.com/images/2023/03/02/LDROBOT_LD14P%20DataSheet_CN_v0.4_Wlmrp6QT.pdf) (Chinese)
+- official datasheet [English](https://robu.in/wp-content/uploads/2022/12/LD14.pdf), [Chinese](https://www.ldrobot.com/images/2023/03/02/LDROBOT_LD14P%20DataSheet_CN_v0.4_Wlmrp6QT.pdf)
 - [Video](https://www.youtube.com/watch?v=ebbHqs4lW0U) (Arduino, ROS2)
 - specs, viewer, wiring diagram, protocol, manual, SDK, ROS2, 3D model [link](https://www.waveshare.com/wiki/D200_LiDAR_Kit)
   - uses a 4-pin JST GH (1.25mm with latch) connector
