@@ -57,7 +57,7 @@ Notes:
 
 ## Neato XV11
 - [Video](https://www.youtube.com/watch?v=kfk1Q0RSJpI) (Arduino, ROS2)
-- [protocol, teardown](https://wiki.recessim.com/view/Neato_XV-11)
+- [protocol](https://github.com/Xevel/NXV11/wiki)
 - Characterization [report](https://www.diva-portal.org/smash/get/diva2:995686/FULLTEXT01.pdf)
 
 ## Xiaomi Mi 1st gen LDS02RR
