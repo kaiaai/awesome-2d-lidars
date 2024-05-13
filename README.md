@@ -8,6 +8,8 @@ Please note - some of the information in the table below may be incorrect.
 
 Please also see this [blog post](https://kaia.ai/blog/arduino-lidar-library/) and [library](https://github.com/kaiaai/LDS).
 
+![LDS_collection_labeled_v3](https://github.com/kaiaai/awesome-2d-lidars/assets/33589365/4db66d84-98e2-4d91-9970-466cc76742e4)
+
 ## Comparison Table
 
 | Model                | Type | Scans per sec | Points per sec | Range, Meters |   Accuracy    | Price Retail | Service Life | Safety | Max Ambient, Lux | Laser w/len | Weight | Links |
