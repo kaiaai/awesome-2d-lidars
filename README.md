@@ -97,6 +97,7 @@ Notes:
   - uses a 4-pin JST GH (1.25mm with latch) connector
   - also comes as D200 evaluation kit (that includes the USB serial dongle)
 - Arduino ESP32 wiring [tutorial](https://kaia.ai/blog/tutorial-connect-ld14p-lidar/)
+- connector JST GH 1.25mm 4-pin
   
 |   |   |
 |---|---|
