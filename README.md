@@ -8,7 +8,7 @@ Please note - some of the information in the table below may be incorrect.
 
 Please also see this [blog post](https://kaia.ai/blog/arduino-lidar-library/) and [library](https://github.com/kaiaai/LDS).
 
-![LDS_collection_labeled_v3](https://github.com/kaiaai/awesome-2d-lidars/assets/33589365/4db66d84-98e2-4d91-9970-466cc76742e4)
+![LDS_collection_labeled_v3](./images/LDS_collection_labeled_v3.webp)
 
 ## Comparison Table
 
