@@ -127,7 +127,6 @@ Notes:
 - [Video](https://www.youtube.com/shorts/kNBraxYKvvI) (Arduino, ROS2)
 - [ROS2, ROS1, protocol, 3D model](https://github.com/Vidicon/camsense-X1)
 - LDS product [home page](https://www.camsense.cn/robot/camsenseX1.html)
-- Wiring [Camsense X1 bottom](./images/PXL_20240325_004824664.jpg)
 
 |   |   |
 |---|---|
