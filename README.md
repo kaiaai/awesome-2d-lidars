@@ -86,7 +86,7 @@ Notes:
 ## YDLIDAR X3 PRO
 - [Video](https://www.youtube.com/watch?v=_VuRCiO55gA) (Arduino, ROS2)
 - connectors
-  - LiDAR PCB: JST PH 1.25mm 4-pin
+  - LiDAR PCB: Molex PicoBlade 1.25mm 4-pin
   - serial adapter: JST PH 2.0mm 5-pin socket
 
 ## YDLIDAR X4
@@ -102,7 +102,7 @@ Notes:
 - Arduino ESP32 wiring [tutorial](https://kaia.ai/blog/tutorial-connect-ld14p-lidar/)
 - connectors
   - LiDAR PCB: JST GH 1.25mm 4-pin socket
-  - serial adapter: JST PH 1.25mm 4-pin
+  - serial adapter: Molex PicoBlade 1.25mm 4-pin
   
 |   |   |
 |---|---|
