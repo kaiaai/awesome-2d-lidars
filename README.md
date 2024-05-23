@@ -85,6 +85,9 @@ Notes:
 
 ## YDLIDAR X3 PRO
 - [Video](https://www.youtube.com/watch?v=_VuRCiO55gA) (Arduino, ROS2)
+- connectors
+  - LiDAR PCB: JST PH 1.25mm 4-pin
+  - serial adapter: JST PH 2.0mm 5-pin socket
 
 ## YDLIDAR X4
 - deprecated, as far as I understand
@@ -97,7 +100,9 @@ Notes:
   - uses a 4-pin JST GH (1.25mm with latch) connector
   - also comes as D200 evaluation kit (that includes the USB serial dongle)
 - Arduino ESP32 wiring [tutorial](https://kaia.ai/blog/tutorial-connect-ld14p-lidar/)
-- connector JST GH 1.25mm 4-pin
+- connectors
+  - LiDAR PCB: JST GH 1.25mm 4-pin socket
+  - serial adapter: JST PH 1.25mm 4-pin
   
 |   |   |
 |---|---|
@@ -119,6 +124,10 @@ Notes:
 | ![Camsense X1 top](./images/Camsense_X1_top_side.webp) | ![Camsense X1 top side](./images/Camsense_X1_bottom.webp) |
 
 ## 3irobotix Delta-2A
+- connector
+  - LiDAR PCB: JST PH 2.0mm 5-pin socket
+  - serial adapter: same type
+ 
 |   |   |
 |---|---|
 | ![Delta-2A top](./images/Delta-2A_top.webp) | ![Delta-2A bottom](./images/Delta-2A_bottom.webp) |
