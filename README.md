@@ -89,8 +89,18 @@ Notes:
   - LiDAR PCB: Molex PicoBlade 1.25mm 4-pin
   - serial adapter: JST PH 2.0mm 5-pin socket
 
+## YDLIDAR X2/X2L
+- X2 and X2L differ slightly in mounting hole locations
+- only X2L sold in USA, as far as I understand
+- connectors
+  - LiDAR PCB: Molex PicoBlade 1.25mm 4-pin
+  - serial adapter: JST PH 2.0mm 5-pin socket
+
 ## YDLIDAR X4
 - deprecated, as far as I understand
+- connectors
+  - LiDAR PCB: JST PH 2.0mm 8-pin socket
+  - serial adapter: JST PH 2.0mm 5-pin socket
 
 ## LDROBOT LD14P
 - official product [webpage](https://www.ldrobot.com/ProductDetails?sensor_name=LD14P)
