@@ -52,6 +52,8 @@ Please also see this [blog post](https://kaia.ai/blog/arduino-lidar-library/) an
 | YDLIDAR(?) MB-1R2T   |      |         |         |         |                 |         |         |        | | |     | [ROS2](https://github.com/g0mb4/mb_1r2t_ros2) [ROS1](https://github.com/Vidicon/mb_1r2t_ros) [3D](https://github.com/simonllopez/radar_mb_1r2t-3D-model) |
 | Camsense X1          | Tria | 5.2Hz   | 2.08KHz | 0.1-8   |                 | ~$19    | Class 1 | 50K    | | | | [Code](https://github.com/Vidicon/camsense-X1) [Product](https://www.camsense.cn/en/robot/camsenseX1.html) |
 | Camsense X2          | Tria | 5.2Hz   | 3(2.08)KHz | 0.12-8  |             |         | Class 1 | 50K    | | 780nm EEL, 808nm VCSEL | | [Product](https://www.camsense.cn/en/robot/camsenseX2.html) |
+| Camsense D2          | Tria | 5.6,6Hz | 2.08,3KHz | 0.15-8 |               |     | Class 1 | 50K    | | 780nm, 940nm | | [Product](https://www.camsense.cn/en/robot/camsenseX2-3.html) |
+| Camsense T2          | ToF  | 5..8Hz | 5(4.688)KHz | 0.06-12 |               |     | Class 1 | 60K    | | 905nm | | [Product](https://www.camsense.cn/en/robot/camsenseT2.html) |
 
 Notes:
 - "Tria" means "triangulation"; ToF means "time-of-flight"
