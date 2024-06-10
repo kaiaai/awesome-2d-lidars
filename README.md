@@ -148,3 +148,6 @@ Notes:
 
 - 2D LiDARs are usually sold retail on AliExpress, Amazon, eBay, online DIY robotics stores (robotshop.com, waveshare.com)
   - Google for "buy such-and-such-LiDAR-model" to find 2D LiDAR retail sellers
+
+## Star History
+[![Star History Chart](https://api.star-history.com/svg?repos=kaiaai/awesome-2d-lidars&type=Date)](https://star-history.com/#kaiaai/awesome-2d-lidars&Date)
