@@ -18,12 +18,13 @@ Please also see this [blog post](https://kaia.ai/blog/arduino-lidar-library/) an
 | YDLIDAR X4 PRO       | Tria |  6-12Hz | 5KHz    | 0.12-10 | | ~$75-100 | 1,500h  | Class 1 | 40K    | 793nm | 178g | [PDF](https://www.ydlidar.com/Public/upload/files/2024-02-01/YDLIDAR%20X4PRO%20Datasheet%20V1.1%20(240124).pdf) |
 | YDLIDAR X2/X2L       | Tria |  5-8(6)Hz | 3KHz | 0.12-8@80% | | ~$75-100 | 1,500h | Class 1 | 2K  | 793nm | 126g | [PDF](https://www.ydlidar.com/Public/upload/files/2024-02-01/YDLIDAR%20X2%20Data%20Sheet%20V1.2(240124).pdf) |
 | YDLIDAR X3           | Tria |  5-10(8)Hz | 3KHz | 0.12-8  | | ~$65     |         | Class 1 | 2K    | 793nm | 135g |      |
-| YDLIDAR X3 PRO       | Tria |  6-12Hz | 4KHz    | 0.12-8  | | ~$70     | 1,500h  |         | 40K?   |       |      | [Datasheet](https://static.generation-robots.com/media/YDLIDARX4PRODatasheet.pdf) |
+| YDLIDAR X3 PRO       | Tria |  6-12Hz | 4KHz    | 0.12-8  | | ~$70     | 1,500h  |         | 40K   |       |      | [Datasheet](https://static.generation-robots.com/media/YDLIDARX4PRODatasheet.pdf) |
 | YDLIDAR G1           | Tria |  5-12(7)Hz | 4-9KHz  | 0.12-8@80% |  | |         | Class 1 | 20K    | 793nm | 140g | [Product](https://www.ydlidar.com/products/view/13.html) |
 | YDLIDAR G2           | Tria |  5-12(7)Hz | 5KHz | 0.12-16@80% |    | |         | Class 1 | 2K     | 792nm | 185g | [Product](https://www.ydlidar.com/products/view/1.html) |
 | YDLIDAR G4           | Tria |  5-12(7)Hz | 9KHz | 0.12-16@80% |    | |         | Class 1 | 2K     | 792nm | 214g | [Product](https://www.ydlidar.com/products/view/3.html) |
 | YDLIDAR G6           | Tria |  5-12(7)Hz | 10-18(18)KHz | 0.12-16@80% | | |   | Class 1 | 2K     | 792nm | 214g | [Product](https://www.ydlidar.com/products/view/4.html) |
 | YDLIDAR SCL          | Tria |            |              |             | | |   |         |        |       |      |  |
+| YDLIDAR T-MINI-Plus  | ToF  |  6-12(6)Hz | 4KHz    | 0.05-4m@10%-12m@80% | 20mm | $71 |   | Class 1 | 60K | 905nm | 45g | [Product](https://www.ydlidar.com/products/view/27.html) |
 | XIAOMI LDS02RR       | Tria |   5Hz   | 1.8KHz  | 0.15-6  | | ~$16     |         |         |        |       |      | Uses Neato protocol |
 | XIAOMI LDS01RR       | ToF  |   5Hz   |         | 0.15-9  | | ~$37     | 1,095h  | Class 1 |        |       |      | [Spec](https://www.youyeetoo.com/blog/lds01rr-lidar-stdps01rmain-108) [ROS2, Win](https://github.com/iliasam/LDS01RR_lidar/tree/main) |
 | Neato XV11           | Tria |   5Hz   | ~2KHz   | 0.15-6? | | ~$35     |         |         |        |       | 195g | [ROS2](https://github.com/mjstn/xv_11_driver) [Char](https://www.diva-portal.org/smash/get/diva2:995686/FULLTEXT01.pdf) |
