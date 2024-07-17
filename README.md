@@ -50,7 +50,7 @@ Please also see this [blog post](https://kaia.ai/blog/arduino-lidar-library/) an
 | LDROBOT LD06 | ToF | 5..13(10)Hz | 4.5KHz  | 0.02-12 | 15mm            | $99 | 10K hrs | Class 1 | 25K   | 905nm | | | [Docs](https://www.inno-maker.com/product/lidar-ld06/), [Driver](https://github.com/Myzhar/ldrobot-lidar-ros2) |
 | LDROBOT LD19P        | Tria | 2..10Hz | 2.3KHz  | 0.16-8  |                 |         |         | Class 1 | 25K?   | | 131g | | [Datasheet](https://www.ldrobot.com/images/2023/03/02/LDROBOT_LD08_Datasheet_CN_V1.3_aoMhAtqQ.pdf) |
 | LDROBOT LD20         |      |         |         |         |                 |         |         |         |        | |     | | |
-| LDROBOT STL-27L      | ToF  | 10Hz    | 21.6KHz | 0.03-25 | ±15mm 0.03-2m   |         |         |         | 60K    | |     | | [Product](https://www.ldrobot.com/ProductDetails?sensor_name=STL-27L) |
+| LDROBOT STL-27L      | ToF  | 10Hz    | 21.6KHz | 0.03-25 | ±15mm 0.03-2m   | $142    |         |         | 60K    | |     | | [Product](https://www.ldrobot.com/ProductDetails?sensor_name=STL-27L) |
 | LDROBOT STL-19P      | ToF  | 10Hz    | 5KHz    | 0.03-12 | ±10mm 0.03-0.5m |         |         |         |        | |     | | [Product](https://www.ldrobot.com/ProductDetails?sensor_name=STL-19P) |
 | LDROBOT STL-26N      | ToF  | 6Hz     | 5KHz    | 0.04-12 | ±8mm 0.1-0.5m   |         |         |         | 80K    | |     | | [Product](https://www.ldrobot.com/ProductDetails?sensor_name=STL-26N) |
 | LDROBOT STL-06P      | ToF  | 10Hz    | 5KHz    | 0.02-12 | ±10mm 0.03-0.5m |         |         |         |        | |     | | [Product](https://www.ldrobot.com/ProductDetails?sensor_name=STL-06P) |
