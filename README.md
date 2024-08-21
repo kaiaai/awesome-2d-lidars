@@ -23,7 +23,7 @@ Please also see this [blog post](https://kaia.ai/blog/arduino-lidar-library/) an
 | YDLIDAR G2           | Tria |  5-12(7)Hz | 5KHz | 0.12-16@80% |    | |         | Class 1 | 2K     | 792nm | 185g | | [Product](https://www.ydlidar.com/products/view/1.html) |
 | YDLIDAR G4           | Tria |  5-12(7)Hz | 9KHz | 0.12-16@80% |    | |         | Class 1 | 2K     | 792nm | 214g | | [Product](https://www.ydlidar.com/products/view/3.html) |
 | YDLIDAR G6           | Tria |  5-12(7)Hz | 10-18(18)KHz | 0.12-16@80% | | |   | Class 1 | 2K     | 792nm | 214g | | [Product](https://www.ydlidar.com/products/view/4.html) |
-| YDLIDAR SCL          | Tria |            |              |             | | |   |         |        |       |      | |  |
+| YDLIDAR SCL          | Tria |            |              |             | | |   |         |        |       |      | | [Arduino code](https://github.com/kaiaai/LDS) |
 | YDLIDAR T-mini Plus  | ToF  |  6-12(6)Hz | 4KHz    | 0.05-4m@10%-12m@80% | 20mm | $71 |   | Class 1 | 60K | 905nm | 45g | | [Product](https://www.ydlidar.com/products/view/27.html) |
 | YDLIDAR T-mini Pro   | ToF  |  6-12(6)Hz | 4KHz    | 0.02-4m@10%-12m@80% | 20mm |     |   | Class 1 | 60K | 905nm | 45g | | [Product](https://www.ydlidar.com/products/view/22.html) |
 | XIAOMI LDS02RR       | Tria |   5Hz   | 1.8KHz  | 0.15-6  | | ~$16     |         |         |        |       |      | | Uses Neato protocol |
