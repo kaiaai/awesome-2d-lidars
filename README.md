@@ -133,9 +133,12 @@ Notes:
 - as far as I understand, this model is old, superceded by LD14P
 
 ## Camsense X1
+- SHENZHEN CAMSENSE TECHNOLOGIES, [camsense.cn](https://www.camsense.cn/)
 - [Video](https://www.youtube.com/shorts/kNBraxYKvvI) (Arduino, ROS2)
 - [ROS2, ROS1, protocol, 3D model](https://github.com/Vidicon/camsense-X1)
 - LDS product [home page](https://www.camsense.cn/robot/camsenseX1.html)
+- Camsense X1 with M5 Stack, Arduino [code](https://github.com/yishii/LiDAR_Camsense_X1_M5Stack)
+- Python visualization [code](https://github.com/IljaRukin/camsense_X1_lidar)
 
 |   |   |
 |---|---|
@@ -150,10 +153,12 @@ Notes:
 |---|---|
 | ![Delta-2A top](./images/Delta-2A_top.webp) | ![Delta-2A bottom](./images/Delta-2A_bottom.webp) |
 
-### Miscellaneous
-
+## Miscellaneous
 - 2D LiDARs are usually sold retail on AliExpress, Amazon, eBay, online DIY robotics stores (robotshop.com, waveshare.com)
   - Google for "buy such-and-such-LiDAR-model" to find 2D LiDAR retail sellers
+
+## TODO
+- [mystery](https://www.aliexpress.us/item/3256806933155420.html) "Mini 360" LiDAR that uses Camsense X1-like protocol [code](https://github.com/devemin/UnknownLiDARMini_M5StackCore2)
 
 ## Star History
 [![Star History Chart](https://api.star-history.com/svg?repos=kaiaai/awesome-2d-lidars&type=Date)](https://star-history.com/#kaiaai/awesome-2d-lidars&Date)
