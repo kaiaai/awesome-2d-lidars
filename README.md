@@ -111,7 +111,11 @@ Notes:
   - LiDAR PCB: JST PH 2.0mm 8-pin socket
   - serial adapter: JST PH 2.0mm 5-pin socket
 
-## LDROBOT LD14P
+## LDROBOT
+- [SDK and ROS2](https://github.com/ldrobotSensorTeam)
+- 
+
+### LDROBOT LD14P
 - official product [webpage](https://www.ldrobot.com/ProductDetails?sensor_name=LD14P)
 - official datasheet [Chinese](https://www.ldrobot.com/images/2023/03/02/LDROBOT_LD14P%20DataSheet_CN_v0.4_Wlmrp6QT.pdf)
 - [Video](https://www.youtube.com/watch?v=ebbHqs4lW0U) (Arduino, ROS2)
@@ -127,10 +131,14 @@ Notes:
 |---|---|
 | ![LD14P top](./images/ld14p_top.jpg) | ![LD14P bottom](./images/ld14p_bottom.jpg) |
 
-## LDROBOT LD08
+### LDROBOT LD08
 - official [datasheet](https://www.ldrobot.com/images/2023/03/02/LDROBOT_LD08_Datasheet_CN_V1.3_aoMhAtqQ.pdf)
 - official product [webpage](https://www.ldrobot.com/ProductDetails?sensor_name=LD08)
 - as far as I understand, this model is old, superceded by LD14P
+
+### LDROBOT LD06
+- how to [connect LD06 to Raspberry Pi 4B](https://www.okdo.com/wp-content/uploads/2021/06/OKdo-Lidar-get-started-update.pdf) running ROS
+  - SDK and ROS libraries https://github.com/ldrobotSensorTeam/sdk_ld06_raspberry_ros
 
 ## Camsense X1
 - SHENZHEN CAMSENSE TECHNOLOGIES, [camsense.cn](https://www.camsense.cn/)
