@@ -61,6 +61,7 @@ Please also see this [blog post](https://kaia.ai/blog/arduino-lidar-library/) an
 | Camsense D2          | Tria | 5.6,6Hz | 2.08,3KHz | 0.15-8   |              |         |         | Class 1 | 50K    | | 780nm, 940nm | | [Product](https://www.camsense.cn/en/robot/camsenseX2-3.html) |
 | Camsense T2          | ToF  | 5..8Hz | 5(4.688)KHz | 0.06-12 |              |         |         | Class 1 | 60K    | | 905nm | | [Product](https://www.camsense.cn/en/robot/camsenseT2.html) |
 | ORBBEC MS200         | ToF  | 5..15(10)Hz | 4.5KHz | 0.03-12@90% |          | $100    | 10Kh    | Class 1 | 40K    | 40g | 905nm | | [Product](https://www.orbbec.com/products/lidar/ms200/) |
+| LDS-006 (Ecovacs)    |      |             |        |             |          | $23     |         |         |        |     |     | | See links below |
 
 Notes:
 - "Tria" means "triangulation"; ToF means "time-of-flight"
@@ -160,6 +161,16 @@ Notes:
 |   |   |
 |---|---|
 | ![Delta-2A top](./images/Delta-2A_top.webp) | ![Delta-2A bottom](./images/Delta-2A_bottom.webp) |
+
+## LDS-006 (Ecovacs Deebot)
+- [Arduino sketch, Python code, wiring](https://github.com/opravdin/lds-006-reverse-engineering)
+- [connector wiring](https://0x416c6578.github.io/lds-006/overview.html)
+- [flash LDS-006 with custom firmware](https://github.com/0x416c6578/lds-006-firmware)
+- [ESP32 library for LDS-006](https://github.com/lemarsienvoyageur/LDS-006-ESP32)
+- [ROS driver](https://github.com/manuelilg/lds006_lidar_driver)
+- [reverse engineering, photos, protocol](https://www.jentsch.io/lds-006-lidar-sensor-reverse-engineering/)
+  - [Python code](https://github.com/msoftware/LDS-006-Lidar-Sensor-Reverse-Engineering)
+- [LDS006 connected to STM32 and LCD; protocol](https://github.com/Aluminum-z/Laser-Radar-LDS-006-Drive-Test)
 
 ## Miscellaneous
 - 2D LiDARs are usually sold retail on AliExpress, Amazon, eBay, online DIY robotics stores (robotshop.com, waveshare.com)
