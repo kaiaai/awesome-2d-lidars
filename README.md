@@ -40,6 +40,7 @@ Please also see this [blog post](https://kaia.ai/blog/arduino-lidar-library/) an
 | 3irobotics Delta-2A  | Tria | ~5.25Hz?| ~1.9KHz?| 0.15-5? | | ~$28     |         |         | 1K?    | |      | | [SDK](https://github.com/CWRU-AutonomousVehiclesLab/Delta-2B-Lidar-SDK) [Protocol](https://github.com/NotBlackMagic/Delta-2G-LiDAR-Driver/blob/master/Documents/Delta-1A%20EN.pdf) |
 | 3irobotics Delta-2B  | Tria | 4..10Hz?|  5KHz?  | 0.2..8? | |      |         |         | 1K?    | |      | | [Arduino code](https://wiki.iarduino.ru/page/delta-2b-lidar-esp32/) |
 | 3irobotics Delta-2G  | Tria | ~5.25Hz?| ~1.9KHz?| 0.15-5? | | ~$17 |         |         |        | |      | | [SDK](https://lidar.oss-cn-beijing.aliyuncs.com/Lidar.rar) [Protocol](https://github.com/NotBlackMagic/Delta-2G-LiDAR-Driver/blob/master/Documents/Delta-1A%20EN.pdf) |
+| 3irobotix Delta-3A   | Tria | 5-15Hz  | 8KHz    | 0.13-16m@80% | | $270 | 50K hrs | Class 1 | 1K    | | 780nm | 193.5g | See links below |
 | Hitachi-LG HLS-LFCD2 | ToF  |   5Hz   | 1.8KHz  | 0.12-3.5| | ~$28 |         | Class 1 | 10K?   | |      | | [Spec](https://emanual.robotis.com/docs/en/platform/turtlebot3/appendix_lds_01/) [ROS2](https://github.com/ROBOTIS-GIT/hls_lfcd_lds_driver) |
 | Hitachi-LG HLS-LFCD3 | Tria |   5Hz   | 2.3KHz  | 0.16-8  | | ~$17 | 1,000h  | Class 1 | 25K?   |       |      | | [Spec](https://emanual.robotis.com/docs/en/platform/turtlebot3/appendix_lds_02/) [ROS2](https://github.com/ROBOTIS-GIT/ld08_driver) |
 | LDROBOT LD14         | Tria | 2..8(6)Hz  | 2.3KHz  | 0.15-5@4%-8@80% | |         | 1,500h  | Class 1 | 30K?   | 793nm | 131g | | [Datasheet](https://robu.in/wp-content/uploads/2022/12/LD14.pdf) |
@@ -157,10 +158,24 @@ Notes:
 - connector
   - LiDAR PCB: JST PH 2.0mm 5-pin socket
   - serial adapter: same type
- 
+- [Rust driver](https://github.com/jeroenvervaeke/delta_2a_lidar)
+- [3irobotix SDK](https://github.com/Theara-Seng/lidar_sensor_delta_2a)
+
 |   |   |
 |---|---|
 | ![Delta-2A top](./images/Delta-2A_top.webp) | ![Delta-2A bottom](./images/Delta-2A_bottom.webp) |
+
+## 3irobotix Delta-2B
+- [3irobotix SDK](https://github.com/CWRU-AutonomousVehiclesLab/Delta-2B-Lidar-SDK)
+
+## 3irobotix Delta-3A
+- [communication protocol](https://github.com/NotBlackMagic/Delta-2G-LiDAR-Driver/blob/master/Documents/Delta-3A%20EN.pdf)
+- [SDK for SDK -1A -2A -2D -3A -2T -T1](https://lidar.oss-cn-beijing.aliyuncs.com/Lidar.rar)
+- 3W, 76mm by 42mm, 5V 1.7A max 0.6A typical, 3mW laser, 1% accuracy, 230400 baud 3.3V, DCV <0.2%, measurement resolution 0.25mm
+
+## 3irobotix Delta-2G
+- [protocol](https://notblackmagic.com/bitsnpieces/lidar-modules/)
+  - [ROS2, Python, C# drivers](https://github.com/NotBlackMagic/Delta-2G-LiDAR-Driver/tree/master)
 
 ## LDS-006 (Ecovacs Deebot)
 - [Arduino sketch, Python code, wiring](https://github.com/opravdin/lds-006-reverse-engineering)
@@ -171,6 +186,9 @@ Notes:
 - [reverse engineering, photos, protocol](https://www.jentsch.io/lds-006-lidar-sensor-reverse-engineering/)
   - [Python code](https://github.com/msoftware/LDS-006-Lidar-Sensor-Reverse-Engineering)
 - [LDS006 connected to STM32 and LCD; protocol](https://github.com/Aluminum-z/Laser-Radar-LDS-006-Drive-Test)
+
+## HLS-LFCD2
+- [DIY wiring](https://mein-roboter.blogspot.com/2020/01/lidar-loppt_15.html)
 
 ## Miscellaneous
 - 2D LiDARs are usually sold retail on AliExpress, Amazon, eBay, online DIY robotics stores (robotshop.com, waveshare.com)
