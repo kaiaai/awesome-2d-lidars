@@ -59,10 +59,10 @@ Please also see this [blog post](https://kaia.ai/blog/arduino-lidar-library/) an
 | LDROBOT STL-06P      | ToF  | 10Hz    | 5KHz    | 0.02-12 | ±10mm 0.03-0.5m |         |         |         |        | |     | | [Product](https://www.ldrobot.com/ProductDetails?sensor_name=STL-06P) |
 | LDROBOT STL-26       | ToF  | 6Hz     | 5KHz    | 0.1-12  | ±10mm 0.03-0.5m |         |         |         | 60K    | |     | | [Product](https://www.ldrobot.com/ProductDetails?sensor_name=STL-26) |
 | YDLIDAR(?) MB-1R2T   |      |         |         |         |                 |         |         |         |        | |     | | [ROS2](https://github.com/g0mb4/mb_1r2t_ros2) [ROS1](https://github.com/Vidicon/mb_1r2t_ros) [3D](https://github.com/simonllopez/radar_mb_1r2t-3D-model) |
-| Camsense X1          | Tria | 5.2Hz   | 2.08KHz | 0.1-8   |                 | ~$19    |         | Class 1 | 50K    | |     | | [Code](https://github.com/Vidicon/camsense-X1) [Product](https://www.camsense.cn/en/robot/camsenseX1.html) |
-| Camsense X2          | Tria | 5.2Hz   | 3(2.08)KHz | 0.12-8  |              |         |         | Class 1 | 50K    | | 780nm EEL, 808nm VCSEL | | [Product](https://www.camsense.cn/en/robot/camsenseX2.html) |
-| Camsense D2          | Tria | 5.6,6Hz | 2.08,3KHz | 0.15-8   |              |         |         | Class 1 | 50K    | | 780nm, 940nm | | [Product](https://www.camsense.cn/en/robot/camsenseX2-3.html) |
-| Camsense T2          | ToF  | 5..8Hz | 5(4.688)KHz | 0.06-12 |              |         |         | Class 1 | 60K    | | 905nm | | [Product](https://www.camsense.cn/en/robot/camsenseT2.html) |
+| Camsense X1          | Tria | 5.2Hz   | 2.08KHz | 0.1-8   |                 | ~$19    |         | Class 1 | 50K    | |     | | [Code](https://github.com/Vidicon/camsense-X1) [Product](https://www.camsense.cn/en/robot/camsenseX1.html) [SDK](https://github.com/camsense/T2SDK) |
+| Camsense X2          | Tria | 5.2Hz   | 3(2.08)KHz | 0.12-8  |              |         |         | Class 1 | 50K    | | 780nm EEL, 808nm VCSEL | | [Product](https://www.camsense.cn/en/robot/camsenseX2.html) [SDK](https://github.com/camsense/T2SDK) |
+| Camsense D2          | Tria | 5.6,6Hz | 2.08,3KHz | 0.15-8   |              |         |         | Class 1 | 50K    | | 780nm, 940nm | | [Product](https://www.camsense.cn/en/robot/camsenseX2-3.html) [SDK](https://github.com/camsense/T2SDK) |
+| Camsense T2          | ToF  | 5..8Hz | 5(4.688)KHz | 0.06-12 |              |         |         | Class 1 | 60K    | | 905nm | | [Product](https://www.camsense.cn/en/robot/camsenseT2.html) [SDK](https://github.com/camsense/T2SDK) |
 | ORBBEC MS200         | ToF  | 5..15(10)Hz | 4.5KHz | 0.03-12@90% |          | $100    | 10Kh    | Class 1 | 40K    | 40g | 905nm | | [Product](https://www.orbbec.com/products/lidar/ms200/) |
 | LDS-006 (Ecovacs)    |      |             |        |             |          | $23     |         |         |        |     |     | | See links below |
 
@@ -144,7 +144,23 @@ Notes:
 - how to [connect LD06 to Raspberry Pi 4B](https://www.okdo.com/wp-content/uploads/2021/06/OKdo-Lidar-get-started-update.pdf) running ROS
   - SDK and ROS libraries https://github.com/ldrobotSensorTeam/sdk_ld06_raspberry_ros
 
+## Camsense
+- [ROS1 driver for X2M](https://github.com/camsense/ROS_SDK)
+- [SDK for D2YE, D3YD, PMA1](https://github.com/camsense/SDK_YJ)
+- [SDK for D2YE D3YD](https://github.com/camsense/YJ)
+- [SharkSDK](https://github.com/camsense/SharkSDK)
+- [SDK for T2, X1, X2, D2](https://github.com/camsense/T2SDK)
+- [SDK v3.0 for X1, X2, D2](https://github.com/camsense/SDK_V3.0)
+- [SDK for L2](https://github.com/camsense/L2SDK)
+- [ROS2 SDK hclidar X2M](https://github.com/camsense/hclidar_driver_ros2)
+- [ROS1 driver for T2](https://github.com/camsense/T2_ROS1)
+- [Demo SDK, documentation (Chinese)](https://github.com/camsense/NoiseFilter)
+- [MPro SDK demo](https://github.com/camsense/MproTest)
+- [Camsense USB driver, documentation](https://github.com/camsense/USB_Driver)
+- [ROS1 SDK X1M, X2M, D2M](https://github.com/camsense/ROS_SDK)
+
 ## Camsense X1
+- [Camsense GitHub](https://github.com/camsense)
 - SHENZHEN CAMSENSE TECHNOLOGIES, [camsense.cn](https://www.camsense.cn/)
 - [Video](https://www.youtube.com/shorts/kNBraxYKvvI) (Arduino, ROS2)
 - [ROS2, ROS1, protocol, 3D model](https://github.com/Vidicon/camsense-X1)
