@@ -46,7 +46,7 @@ Please also see this [blog post](https://kaia.ai/blog/arduino-lidar-library/) an
 | Hitachi-LG HLS-LFCD2 | ToF  |   5Hz   | 1.8KHz  | 0.12-3.5| | ~$28 |         | Class 1 | 10K?   | |      | | [Spec](https://emanual.robotis.com/docs/en/platform/turtlebot3/appendix_lds_01/) [ROS2](https://github.com/ROBOTIS-GIT/hls_lfcd_lds_driver) |
 | Hitachi-LG HLS-LFCD3 | Tria |   5Hz   | 2.3KHz  | 0.16-8  | | ~$17 | 1,000h  | Class 1 | 25K?   |       |      | | [Spec](https://emanual.robotis.com/docs/en/platform/turtlebot3/appendix_lds_02/) [ROS2](https://github.com/ROBOTIS-GIT/ld08_driver) |
 | LDROBOT LD14         | Tria | 2..8(6)Hz  | 2.3KHz  | 0.15-5@4%-8@80% | |         | 1,500h  | Class 1 | 30K?   | 793nm | 131g | | [Datasheet](https://robu.in/wp-content/uploads/2022/12/LD14.pdf) |
-| LDROBOT LD14P        | Tria | 2..8(6)Hz  | 4KHz    | 0.1-6@4%-8@80%  | | ~$35    | 2,200h  | Class 1 | 80K?   | 793nm | 100g | | [Datasheet](https://www.ldrobot.com/images/2023/03/02/LDROBOT_LD14P%20DataSheet_CN_v0.4_Wlmrp6QT.pdf) [Spec Protocol](https://www.waveshare.com/wiki/D200_LiDAR_Kit) |
+| LDROBOT LD14P        | Tria | 2..8(6)Hz  | 4KHz    | 0.1-6@4%-8@80%  | | ~$35    | 2,200h  | Class 1 | 80K?   | 793nm | 100g | | [Datasheet](https://www.ldrobot.com/images/2023/03/02/LDROBOT_LD14P%20DataSheet_CN_v0.4_Wlmrp6QT.pdf) [Spec Protocol](https://www.waveshare.com/wiki/D200_LiDAR_Kit) [SDK/ROS2](https://github.com/ldrobotSensorTeam/ldlidar_sl_ros2) |
 | LDROBOT LD08         | Tria | 2..10Hz | 2.3KHz  | 0.16-8  |                 |         |         | Class 1 | 25K?   | | 131g | | [Datasheet](https://www.ldrobot.com/images/2023/03/02/LDROBOT_LD08_Datasheet_CN_V1.3_aoMhAtqQ.pdf) |
 | LDROBOT LD-AIR | ToF? | 5..13Hz | 4.5KHz  | 0.02-12 | ±45mm            | $129 | 10K hrs | Class 1 | 20K   | | 47g | | [Kickstarter 2021](https://www.kickstarter.com/projects/ldrobot/ld-air-lidar-360-tof-sensor-for-all-robotic-applications), [Indiegogo](https://www.indiegogo.com/projects/ld-air-lidar-tof-sensor-for-robotic-applications--3#/), [Driver](https://github.com/Myzhar/ldrobot-lidar-ros2) |
 | LDROBOT LD19 | ToF | 10Hz | 4.5KHz  | 0.02-12 | 10mm 3..12m            | | 10K hrs | Class 1 | 30K | | | | [Docs,SDK](https://www.waveshare.com/wiki/DTOF_LIDAR_LD19), [Driver](https://github.com/Myzhar/ldrobot-lidar-ros2) |
@@ -117,11 +117,11 @@ Notes:
 
 ## LDROBOT
 - [SDK and ROS2](https://github.com/ldrobotSensorTeam)
-- 
 
 ### LDROBOT LD14P
 - official product [webpage](https://www.ldrobot.com/ProductDetails?sensor_name=LD14P)
 - official datasheet [Chinese](https://www.ldrobot.com/images/2023/03/02/LDROBOT_LD14P%20DataSheet_CN_v0.4_Wlmrp6QT.pdf)
+- official [SDK, ROS2 driver](https://github.com/ldrobotSensorTeam/ldlidar_sl_ros2)
 - [Video](https://www.youtube.com/watch?v=ebbHqs4lW0U) (Arduino, ROS2)
 - specs, viewer, wiring diagram, protocol, manual, SDK, ROS2, 3D model [link](https://www.waveshare.com/wiki/D200_LiDAR_Kit)
   - uses a 4-pin JST GH (1.25mm with latch) connector
