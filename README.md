@@ -193,7 +193,7 @@ Notes:
 
 ## 3irobotix Delta-2G
 - [protocol](https://notblackmagic.com/bitsnpieces/lidar-modules/)
-  - [ROS2, Python, C# drivers](https://github.com/NotBlackMagic/Delta-2G-LiDAR-Driver/tree/master)
+  - [ROS2, Python, C# drivers](https://github.com/NotBlackMagic/Delta-2G-LiDAR-Driver/)
 
 ## LDS-006 (Ecovacs Deebot)
 - [Arduino sketch, Python code, wiring](https://github.com/opravdin/lds-006-reverse-engineering)
