@@ -98,7 +98,14 @@ Notes:
 
 ## YDLIDAR X3 PRO
 - [Video](https://www.youtube.com/watch?v=_VuRCiO55gA) (Arduino, ROS2)
+- [How to use](https://github.com/YahboomTechnology/EAI-X3-X3ProLidar)
 - connectors
+  - LiDAR PCB: Molex PicoBlade 1.25mm 4-pin
+  - serial adapter: JST PH 2.0mm 5-pin socket
+
+## YDLIDAR X3
+- [How to use](https://github.com/YahboomTechnology/EAI-X3-X3ProLidar)
+- connectors, pinout same as X3 PRO, X2/X2L
   - LiDAR PCB: Molex PicoBlade 1.25mm 4-pin
   - serial adapter: JST PH 2.0mm 5-pin socket
 
