@@ -191,7 +191,7 @@ Notes:
 |   |   |
 |---|---|
 | ![Delta-2A top](./images/Delta-2A_top.webp) | ![Delta-2A bottom](./images/Delta-2A_bottom.webp) |
-| ![Delta-2A dimensions](./images/3irobotix_delta2a_dimensions.png) |  |
+| ![Delta-2A dimensions](./images/3irobotix_delta2a_dimensions.png) | ![Delta-2A pinout](./images/3irobotix_delta2a_pinout.jpg) |
 
 ## 3irobotix Delta-2B
 - [3irobotix SDK](https://github.com/CWRU-AutonomousVehiclesLab/Delta-2B-Lidar-SDK)
