@@ -180,15 +180,18 @@ Notes:
 | ![Camsense X1 top](./images/Camsense_X1_top_side.webp) | ![Camsense X1 top side](./images/Camsense_X1_bottom.webp) |
 
 ## 3irobotix Delta-2A
+
 - connector
   - LiDAR PCB: JST PH 2.0mm 5-pin socket
   - serial adapter: same type
 - [Rust driver](https://github.com/jeroenvervaeke/delta_2a_lidar)
 - [3irobotix SDK](https://github.com/Theara-Seng/lidar_sensor_delta_2a)
 
+
 |   |   |
 |---|---|
 | ![Delta-2A top](./images/Delta-2A_top.webp) | ![Delta-2A bottom](./images/Delta-2A_bottom.webp) |
+| ![Delta-2A dimensions](./images/3irobotix_delta2a_dimensions.png) |  |
 
 ## 3irobotix Delta-2B
 - [3irobotix SDK](https://github.com/CWRU-AutonomousVehiclesLab/Delta-2B-Lidar-SDK)
