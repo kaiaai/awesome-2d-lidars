@@ -72,6 +72,9 @@ Notes:
 - Values in parenthesis indicates the default and/or recommended value
 - Values like "@80%" refer to the target's reflectivity
 
+## kaiaai/LDS library
+[kaiaai/LDS](https://github.com/kaiaai/LDS) supports quite a few of these models.
+
 ## Neato XV11
 - [Video](https://www.youtube.com/watch?v=kfk1Q0RSJpI) (Arduino, ROS2)
 - [protocol](https://github.com/Xevel/NXV11/wiki)
