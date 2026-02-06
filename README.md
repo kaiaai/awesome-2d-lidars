@@ -29,6 +29,7 @@ Please also see this [blog post](https://kaia.ai/blog/arduino-lidar-library/) an
 | YDLIDAR T-mini Plus  | ToF  |  6-12(6)Hz | 4KHz    | 0.05-4m@10%-12m@80% | 20mm | $71 |   | Class 1 | 60K | 905nm | 45g | | [Product](https://www.ydlidar.com/products/view/27.html) |
 | YDLIDAR T-mini Pro   | ToF  |  6-12(6)Hz | 4KHz    | 0.02-4m@10%-12m@80% | 20mm |     |   | Class 1 | 60K | 905nm | 45g | | [Product](https://www.ydlidar.com/products/view/22.html) |
 | XIAOMI LDS02RR       | Tria |   5Hz   | 1.8KHz  | 0.15-6  | | ~$16     |         |         |        |       |      | | Uses Neato protocol |
+| LDS08RR aka Revo LDS | Tria |   5Hz?  | 1.8KHz? | 0.15-6? | |          |         |         |        |       |      | | Uses Neato protocol |
 | XIAOMI LDS01RR       | ToF  |   5Hz   |         | 0.15-9  | | ~$37     | 1,095h  | Class 1 |        |       |      | | [Spec](https://www.youyeetoo.com/blog/lds01rr-lidar-stdps01rmain-108) [ROS2, Win](https://github.com/iliasam/LDS01RR_lidar/tree/main) |
 | Neato XV11           | Tria |   5Hz   | ~2KHz   | 0.15-6? | | ~$35     |         |         |        |       | 195g | | [ROS2](https://github.com/mjstn/xv_11_driver) [Char](https://www.diva-portal.org/smash/get/diva2:995686/FULLTEXT01.pdf) |
 | SLAMTEC RPLIDAR A1M8-R4 | Tria |  1-10Hz | 8KHz | 0.15-6  | |          |         | Class 1 |        |       |      | | [PDF](https://www.slamtec.ai/wp-content/uploads/2023/11/LD108_SLAMTEC_rplidar_datasheet_A1M8_v3.0_en.pdf) |
