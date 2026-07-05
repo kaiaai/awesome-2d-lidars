@@ -66,6 +66,7 @@ Please also see this [blog post](https://kaia.ai/blog/arduino-lidar-library/) an
 | Camsense T2          | ToF  | 5..8Hz | 5(4.688)KHz | 0.06-12 |              |         |         | Class 1 | 60K    | | 905nm | | [Product](https://www.camsense.cn/en/robot/camsenseT2.html) [SDK](https://github.com/camsense/T2SDK) |
 | ORBBEC MS200         | ToF  | 5..15(10)Hz | 4.5KHz | 0.03-12@90% |          | $100    | 10Kh    | Class 1 | 40K    | 40g | 905nm | | [Product](https://www.orbbec.com/products/lidar/ms200/) |
 | LDS-006 (Ecovacs)    |      |             |        |             |          | $23     |         |         |        |     |     | | See links below |
+| COIN-D4A             | ToF  | 10Hz        |        |             |          | <$20    |         |         |        |     |     | | [Issue](https://github.com/kaiaai/awesome-2d-lidars/issues/3), [M1C1 Mini protocol](https://www.cspctech.com/resources), [Driver µPython](https://github.com/QuirkyCort/IoTy/blob/main/public/extensions/coind4.py) |
 
 Notes:
 - "Tria" means "triangulation"; ToF means "time-of-flight"
