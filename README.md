@@ -67,6 +67,9 @@ Please also see this [blog post](https://kaia.ai/blog/arduino-lidar-library/) an
 | ORBBEC MS200         | ToF  | 5..15(10)Hz | 4.5KHz | 0.03-12@90% |          | $100    | 10Kh    | Class 1 | 40K    | 40g | 905nm | | [Product](https://www.orbbec.com/products/lidar/ms200/) |
 | LDS-006 (Ecovacs)    |      |             |        |             |          | $23     |         |         |        |     |     | | See links below |
 | COIN-D4A             | ToF  | 10Hz        |        |             |          | <$20    |         |         |        |     |     | | [Issue](https://github.com/kaiaai/awesome-2d-lidars/issues/3), [M1C1 Mini protocol](https://www.cspctech.com/resources), [Driver µPython](https://github.com/QuirkyCort/IoTy/blob/main/public/extensions/coind4.py) |
+| Camsense "Mini 360"  | ToF  | 10Hz        |        |             |          | <$20    |         |         |        |     |     | | [Protocol](https://github.com/devemin/UnknownLiDARMini_M5StackCore2) |
+| LDRobot LD07         |      |             |        |             |          |         |         |         |        |     |     | | [ROS2 driver](https://github.com/Vidicon/ld07_lidar_node) |
+| Mystery LD06         |      |             |        |             |          |         |         |         |        |     |     | | [Protocol](https://github.com/Vidicon/weird_LD06) |
 
 Notes:
 - "Tria" means "triangulation"; ToF means "time-of-flight"
@@ -226,9 +229,6 @@ Notes:
 ## Miscellaneous
 - 2D LiDARs are usually sold retail on AliExpress, Amazon, eBay, online DIY robotics stores (robotshop.com, waveshare.com)
   - Google for "buy such-and-such-LiDAR-model" to find 2D LiDAR retail sellers
-
-## TODO
-- [mystery](https://www.aliexpress.us/item/3256806933155420.html) "Mini 360" LiDAR that uses Camsense X1-like protocol [code](https://github.com/devemin/UnknownLiDARMini_M5StackCore2)
 
 ## Star History
 [![Star History Chart](https://api.star-history.com/svg?repos=kaiaai/awesome-2d-lidars&type=Date)](https://star-history.com/#kaiaai/awesome-2d-lidars&Date)
